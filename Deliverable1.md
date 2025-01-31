@@ -9,6 +9,14 @@ We help indie movie enthusiasts, indie movie directors, and people interested in
 
 ### Interview Summary:
 
+The interview questions asked were: 
+- *Question 1: Do you know what makes a movie Indie?*
+- *Question 2: Have you seen an Indie Movie?*
+- *Question 3: How many do you watch a Year*
+- *Question 4: Are you interested in listening to your community about their opinions on a movie*
+- *Question 5: Do you see want to a rise of popularity of lower budget films*
+
+
 **Interview 1**
 - Interviewer: Ryan Wood
 - Interviewee: Grace Benally 
