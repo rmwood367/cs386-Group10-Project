@@ -22,7 +22,7 @@ The interview questions asked were:
 - Interviewee: Grace Benally 
 - When: January 30th, 2025 
 - Customer Segment:
-- Representative Quotes:
+- Representative Quotes: Q3: "around 12 about once a month I feel." and Q5: "I would they make really creative films with what they have and I think thats important and interesting"
 - Assessment: Nice to Have
 
 **Interview 2**
