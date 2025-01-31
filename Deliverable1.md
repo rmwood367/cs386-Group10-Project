@@ -26,6 +26,12 @@ The interview questions asked were:
 - Assessment: Nice to Have
 
 **Interview 2**
+- Interviewer: Brian Dorame
+- Interviewee: Shawn Steward
+- When: January 30th, 2025 
+- Customer Segment:
+- Representative Quotes: Q5: "maybe it would be nice it would be kind of fun yeah" 
+- Assessment: Important feedback
 
 **Interview 3**
 
