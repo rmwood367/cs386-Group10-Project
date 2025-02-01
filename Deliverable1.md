@@ -5,7 +5,7 @@
 Indie movie web application to discuss, rate, suggest, and learn about Indie films, actors, and directors
 
 ### Initial Value Proposition and Customer Segments:
-We help indie movie enthusiasts, indie movie directors, and people interested in th genre in finding a space to collaborate, talk about, and learn more about the industry.
+We help indie movie enthusiasts, indie movie directors, and people interested in the genre in finding a space to collaborate, talk about, and learn more about the industry.
 
 ### Interview Summary:
 
@@ -34,7 +34,12 @@ The interview questions asked were:
 - Assessment: Important feedback
 
 **Interview 3**
-
+- Interviewer: Latisha Talayumptewa
+- Interviewee: Hannah Dayzie
+- When: January 30th, 2025 
+- Customer Segment:
+- Representative Quotes: Q4: "Yes, it would feel that opinions would give me recommendations on what to watch". Q5: "Yes, they tend to be underrated".
+- Assessment: Nice to have
 **Interview 4**
 
 **Interview 5**
