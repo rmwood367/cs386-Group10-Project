@@ -16,9 +16,9 @@
 - [x] GitHub Summary: Created Deliverable1.md
       
 - Latisha Talayumptewa
-- [ ] Review the roles of each team member and gather feedback, checking if every teammate is on the same page
+- [x] Review the roles of each team member and gather feedback, checking if every teammate is on the same page
 - [x] Interviewed for project
-- [ ] GitHub Summary:
+- [x] GitHub Summary: 1 commit: 1 Pull Request
       
 - Blase Gornick
 - [x] Create an overview of what to expect as we complete the project each week in order to keep the team at a steady pace.
@@ -59,6 +59,8 @@
   - Start preperation for deliverable 2
   
 * Latisha Talayumptewa:
+  - Discuss plans for report 3 and deliverable 2
+  - Contribute to the start of the website
   
 * Blase Gornick:
   - Start working on deliverable 2
