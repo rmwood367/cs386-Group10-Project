@@ -2,9 +2,9 @@
 
 #### Indie Movie Website
 #### Group: Ryan Wood, Latisha Talayumptewa, Blase Gornick, Jeremiah Lopez, Brian Dorame, Alyssa Sombrero
-#### Date: (enter date)
-#### Present Participants: 
-#### Missing Participants:
+#### Date: February 2nd, 2025
+#### Present Participants: Brian Dorame and Ryan Wood
+#### Missing Participants: Latisha Talayumptewa, Blase Gornick, Jeremiah Lopez, Alyssa Sombrero
 #### Project Repo: https://github.com/rmwood367/cs386-Group10-Project.git
 
 ## Activity Summary:
@@ -53,6 +53,10 @@
 
 ## Next Steps:
 * Ryan Wood:
+  - Plan Next Meeting
+  - Make next milestone 
+  - Start working on code for website
+  - Start preperation for deliverable 2
   
 * Latisha Talayumptewa:
   
