@@ -34,6 +34,12 @@ The interview questions asked were:
 - Assessment: Important feedback
 
 **Interview 3**
+- Interviewer: Blase Gornick
+- Interviewee: Marin Huntzinger
+- When: January 30th, 2025
+- Customer Segment:
+- Representative Quotes: Q4: "No. I like different stuff than most people.", Q5: "If they’re good. Something like Bo Burnham was really good, but not if they’re bad or a waste of time. It should still be worth a watch. Being indie doesn’t make them good."
+- Assessment: Don't care
 
 **Interview 4**
 
