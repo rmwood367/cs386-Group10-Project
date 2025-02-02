@@ -16,7 +16,6 @@ The interview questions asked were:
 - *Question 4: Are you interested in listening to your community about their opinions on a movie*
 - *Question 5: Do you see want to a rise of popularity of lower budget films*
 
-
 **Interview 1**
 - Interviewer: Ryan Wood
 - Interviewee: Grace Benally 
@@ -49,7 +48,6 @@ The interview questions asked were:
 - Representative Quote: "What defines a movie to be Indie is its content and producers."
 - Assessment: An Important Factor
 
-
 **Interview 5**
 - Interviewer: Latisha Talayumptewa
 - Interviewee: Hannah Dayzie
@@ -67,4 +65,6 @@ The interview questions asked were:
 - Assessment: Love the idea
 
 ### Final Value Proposition and Consumer Segments:
+It seems that the value of the application does exist and that there is an audience of consumers with interest. It also appears that the audience is small enough that we can appeal to a small group of people easier. While there is evidence of some people not being interested it seemes like we will be able to focus on our community and make a great application for them. 
+
 
