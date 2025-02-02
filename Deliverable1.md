@@ -21,7 +21,7 @@ The interview questions asked were:
 - Interviewer: Ryan Wood
 - Interviewee: Grace Benally 
 - When: January 30th, 2025 
-- Customer Segment:
+- Customer Segment: Native 23 Year Old Movie Enjoyer
 - Representative Quotes: Q3: "around 12 about once a month I feel." and Q5: "I would they make really creative films with what they have and I think thats important and interesting"
 - Assessment: Nice to Have
 
