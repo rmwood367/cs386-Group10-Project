@@ -34,6 +34,12 @@ The interview questions asked were:
 - Assessment: Important feedback
 
 **Interview 3**
+- Interviewer: Alyssa Sombrero
+- Interviewee: Jennifer Young
+- When: Feburary 1, 2025
+- Customer Segment: A 20th century Movie Enthusiest
+- Representative Quotes: "There's the movie content and producer that defines what makes the movie Indie."
+- Assessment: Important Factor of Project
 
 **Interview 4**
 
