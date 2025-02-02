@@ -21,9 +21,9 @@
 - [ ] GitHub Summary:
       
 - Blase Gornick
-- [ ] Create an overview of what to expect as we complete the project each week in order to keep the team at a steady pace.
-- [ ] Interviewed for project
-- [ ] GitHub Summary:
+- [x] Create an overview of what to expect as we complete the project each week in order to keep the team at a steady pace.
+- [x] Interviewed for project
+- [x] GitHub Summary: 2 commits : 2 Pull Requests
       
 - Jeremiah Lopez
 - [x] Check on each team member's time availability, and potentially discuss a weekly schedule of meetings
@@ -45,11 +45,11 @@
 - [ ] GitHub Summary: 3 commits : 3 Pull Requrests
 
 ## Retrospective
-1. Appreciation: Every teammate's interview answers to continue developing the project
-2. Successes: Had a better understanding on what we are dealing with; more grounded than having a vague project
-3. Failures: Recieved vague answers from the interviews
-4. Barriers: 
-5. What we should try next time: 
+1. Appreciation: Every teammate's interview answers to continue developing the project. Everyone is contributing to the success of the project and we are working together well.
+2. Successes: Had a better understanding on what we are dealing with; more grounded than having a vague project.
+3. Failures: Recieved vague answers from the interviews. This was our first week of doing work beyond brainstorming, and our communication could've been better.
+4. Barriers: Time is probably our biggest barrier. It is hard to get work done on this outside of our scheduled times, so that's very important to stick to.
+5. What we should try next time: We need to make sure we have a place to meet and communicate throughout the week.
 
 ## Next Steps:
 * Ryan Wood:
@@ -61,6 +61,9 @@
 * Latisha Talayumptewa:
   
 * Blase Gornick:
+  - Start working on deliverable 2
+  - Start working on report 3
+  - Communicate with group about upcoming work
   
 * Jeremiah Lopez:
   
