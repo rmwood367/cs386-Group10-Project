@@ -42,6 +42,13 @@ The interview questions asked were:
 - Assessment: Don't care
 
 **Interview 4**
+- Interviewer: Alyssa Sombrero
+- Interviewee: Jennifer Young
+- When: Feburary 1, 2025
+- Customer Segment: A Native Movie Enthusiast
+- Representative Quote: "What defines a movie to be Indie is its content and producers."
+- Assessment: An Important Factor
+
 
 **Interview 5**
 
