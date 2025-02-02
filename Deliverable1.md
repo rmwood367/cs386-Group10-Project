@@ -51,6 +51,12 @@ The interview questions asked were:
 
 
 **Interview 5**
+- Interviewer: Latisha Talayumptewa
+- Interviewee: Hannah Dayzie
+- When: January 30th, 2025 
+- Customer Segment:
+- Representative Quotes: Q4: "Yes, it would feel that opinions would give me recommendations on what to watch". Q5: "Yes, they tend to be underrated".
+- Assessment: Nice to have
 
 **Interview 6**
 
