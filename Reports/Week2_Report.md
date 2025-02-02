@@ -27,8 +27,8 @@
       
 - Jeremiah Lopez
 - [x] Check on each team member's time availability, and potentially discuss a weekly schedule of meetings
-- [ ] Interviewed for project
-- [ ] GitHub Summary
+- [x] Interviewed for project
+- [x] GitHub Summary: 2 commits
       
 - Brian Dorame
 - [ ] Communicate with groupe members about next week's projects
@@ -66,6 +66,9 @@
   - Communicate with group about upcoming work
   
 * Jeremiah Lopez:
+  - Start coming up with ideas for website
+  - Potentially find a smaller target audience
+  - Start working on deliverable 2
   
 * Brian Dorame:
   
