@@ -59,7 +59,12 @@ The interview questions asked were:
 - Assessment: Nice to have
 
 **Interview 6**
-
+- Interviewer: Jeremiah Lopez
+- Interviewee: Andy Hornburg
+- When: Feburary 1st, 2025
+- Customer Segment: Film Major, Director and Writer
+- Representative Quote: Q5: "With 1 Mufasa, Disney could fund 5 movies like "Warrior" "Big Lebowski" or "Jojo Rabbit" where they still have great production value, but don't blow the budget on VFX Lions."
+- Assessment: Love the idea
 
 ### Final Value Proposition and Consumer Segments:
 
