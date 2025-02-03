@@ -59,7 +59,11 @@
   - Start preperation for deliverable 2
   
 * Latisha Talayumptewa:
-  
+  - Start working on deliverable 2
+  - Start code for website
+  - Report 3 work
+  - come up with website UI Ideas
+    
 * Blase Gornick:
   - Start working on deliverable 2
   - Start working on report 3
@@ -71,6 +75,9 @@
   - Start working on deliverable 2
   
 * Brian Dorame:
+  - Start working on code
+  - Start with report 3 and deliverable 2
+  - communicate website ideas
   
 * Alyssa Sombrero:
   - Create a Weekly Report markdown file template to make things easier
