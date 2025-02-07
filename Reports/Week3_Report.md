@@ -8,6 +8,17 @@
 #### Project Repo: https://github.com/rmwood367/cs386-Group10-Project.git
 
 ## Activity Summary:
+* Ryan Wood
+
+* Latisha Talayumptewa
+
+* Blase Gornick
+
+* Jeremiah Lopez
+
+* Brian Dorame
+
+* Alyssa Sombrero
 
 ## Retrospective
 1. Appreciation:
