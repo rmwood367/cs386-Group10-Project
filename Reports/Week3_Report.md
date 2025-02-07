@@ -11,7 +11,8 @@
 * Ryan Wood
   
 * Latisha Talayumptewa
-
+- Set up the meeting time/date
+- Discuss the overview of project (design, structure)
 * Blase Gornick
 
 * Jeremiah Lopez
@@ -37,7 +38,7 @@
 * Ryan Wood:
   
 * Latisha Talayumptewa:
-    
+   - Contribute to the start of the base of the website 
 * Blase Gornick:
   
 * Jeremiah Lopez:
