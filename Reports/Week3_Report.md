@@ -20,7 +20,10 @@
   - Suggest Features of Website
 
 * Brian Dorame
-
+ - communicate website visions  to stay on the same page.
+  - communicate website features.
+  - discuss website design.
+  - discuss plans for next meeting.
 * Alyssa Sombrero
 
 ## Retrospective
@@ -42,5 +45,8 @@
   - Start on basic structure of website with HTML and CSS
   
 * Brian Dorame:
+  -get started with the main bases code
+  -brainstorm application names
+  -discuss desgins
 
 * Alyssa Sombrero
