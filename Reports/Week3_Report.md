@@ -9,9 +9,7 @@
 
 ## Activity Summary:
 * Ryan Wood
-- Attended group meeting
-- Shared mockup for the project
-
+  
 * Latisha Talayumptewa
 
 * Blase Gornick
