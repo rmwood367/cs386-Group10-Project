@@ -9,3 +9,22 @@
 
 ## Activity Summary:
 
+## Retrospective
+1. Appreciation:
+2. Successes: 
+3. Failures: 
+4. Barriers:
+5. What we should try next time:
+
+## Next Steps:
+* Ryan Wood:
+  
+* Latisha Talayumptewa:
+    
+* Blase Gornick:
+  
+* Jeremiah Lopez:
+  
+* Brian Dorame:
+
+* Alyssa Sombrero
