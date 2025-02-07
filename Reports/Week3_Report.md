@@ -15,6 +15,9 @@
 * Blase Gornick
 
 * Jeremiah Lopez
+  - Worked on team worksheet activities
+  - Suggest Website should be about Short Films
+  - Suggest Features of Website
 
 * Brian Dorame
 
@@ -35,6 +38,9 @@
 * Blase Gornick:
   
 * Jeremiah Lopez:
+- Discuss Color Theory and UI for Website
+- Work of Team Activity Worksheets
+- Start on basic structure of website with HTML and CSS
   
 * Brian Dorame:
 
