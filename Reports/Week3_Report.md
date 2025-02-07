@@ -38,8 +38,8 @@
 * Blase Gornick:
   
 * Jeremiah Lopez:
-- Discuss Color Theory and UI for Website
-- Start on basic structure of website with HTML and CSS
+  - Discuss Color Theory and UI for Website
+  - Start on basic structure of website with HTML and CSS
   
 * Brian Dorame:
 
