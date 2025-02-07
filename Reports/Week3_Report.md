@@ -9,6 +9,8 @@
 
 ## Activity Summary:
 * Ryan Wood
+- Attended group meeting
+- Shared mockup for the project
 
 * Latisha Talayumptewa
 
@@ -21,8 +23,8 @@
 * Alyssa Sombrero
 
 ## Retrospective
-1. Appreciation:
-2. Successes: 
+1. Appreciation: Jeremiah came up with multiple ideas towards the project and a good website to use as an example for ours.
+2. Successes: Good team meeting with most of us attending and being able to bounce ideas off eachother
 3. Failures: 
 4. Barriers:
 5. What we should try next time:
