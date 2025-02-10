@@ -9,22 +9,22 @@
 
 ## Activity Summary:
 * Ryan Wood
-    - 
+    - GitHub Summary:
 
 * Latisha Talyumptewa
-    -
+    - GitHub Summary:
 
 * Blase Gornick
-    -
+    - GitHub Summary:
 
 * Jermiah Lopez
-    -
+    - GitHub Summary:
 
 * Brian Dorame
-    -
+    - GitHub Summary:
 
 * Alyssa Sombrero
-    -
+    - GitHub Summary:
 
 ## Retrospective
 1. Appreciation:
