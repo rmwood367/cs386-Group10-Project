@@ -9,7 +9,10 @@
 
 ## Activity Summary:
 * Ryan Wood
-  - GitHub Summary: # commits : # pull request
+  - Made report 3
+  - Discussed website idea and goals with team
+  - Found example projects 
+  - Helped come up with next meeting deliverables
   
 * Latisha Talayumptewa
 - Set up the meeting time/date
@@ -46,9 +49,14 @@
 
 ## Next Steps:
 * Ryan Wood:
+  - Plan next meeting
+  - Start base code idea
+  - Come up with designs for the application
+  - Start some mockups
   
 * Latisha Talayumptewa:
-   - Contribute to the start of the base of the website 
+   - Contribute to the start of the base of the website
+ 
 * Blase Gornick:
   
 * Jeremiah Lopez:
