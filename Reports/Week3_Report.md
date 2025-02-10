@@ -42,9 +42,9 @@
 
 ## Retrospective
 1. Appreciation: Jeremiah came up with multiple ideas towards the project and a good website to use as an example for ours.
-2. Successes: Good team meeting with most of us attending and being able to bounce ideas off eachother
-3. Failures: 
-4. Barriers:
+2. Successes: Good team meeting with most of us attending and being able to bounce ideas off eachother. Everyone got in contact and the project is starting to move from general planning to production.
+3. Failures: Not everyone was present for the team meeting, and communication happened late again.
+4. Barriers: Time is the biggest barrier right now. 
 5. What we should try next time:
 
 ## Next Steps:
@@ -58,6 +58,9 @@
    - Contribute to the start of the base of the website
  
 * Blase Gornick:
+  -Completed report 3
+  -Started Pseudo-code
+  -Started web outlines
   
 * Jeremiah Lopez:
   - Discuss Color Theory and UI for Website
