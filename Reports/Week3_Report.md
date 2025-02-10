@@ -29,13 +29,13 @@
   - communicate website features.
   - discuss website design.
   - discuss plans for next meeting.
-  - GitHub Summary:
+  - GitHub Summary: # commits : # pull request
     
 * Alyssa Sombrero
   - Drafted a UMI Case Diagram for website through draw.io
   - Created and edited markdown template for weekly reports
   - Drew a web page design for Home page, Login Page, Forgot Password Page, Sign Up page
-  - GitHub Summary: # commits : # pull request
+  - GitHub Summary: 3 commits : 0 pull request
 
 ## Retrospective
 1. Appreciation: Jeremiah came up with multiple ideas towards the project and a good website to use as an example for ours.
