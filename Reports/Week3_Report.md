@@ -9,23 +9,33 @@
 
 ## Activity Summary:
 * Ryan Wood
+  - GitHub Summary: # commits : # pull request
   
 * Latisha Talayumptewa
 - Set up the meeting time/date
 - Discuss the overview of project (design, structure)
+
 * Blase Gornick
+   - GitHub Summary: # commits : # pull request
 
 * Jeremiah Lopez
   - Communicate project and ideas
   - Suggest Website should be about Short Films
   - Suggest Features of Website
+  - GitHub Summary: # commits : # pull request
 
 * Brian Dorame
  - communicate website visions  to stay on the same page.
   - communicate website features.
   - discuss website design.
   - discuss plans for next meeting.
+  - GitHub Summary:
+    
 * Alyssa Sombrero
+  - Drafted a UMI Case Diagram for website through draw.io
+  - Created and edited markdown template for weekly reports
+  - Drew a web page design for Home page, Login Page, Forgot Password Page, Sign Up page
+  - GitHub Summary: # commits : # pull request
 
 ## Retrospective
 1. Appreciation: Jeremiah came up with multiple ideas towards the project and a good website to use as an example for ours.
@@ -51,3 +61,7 @@
   -discuss desgins
 
 * Alyssa Sombrero
+  - create the logo for website
+  - continue making mockup drawings of webpages to instigate more discussion
+  - contribute to the design process and offer up designs to work on, on ipad
+  - check if theres any other diagrams to implement to gain a better understanding on structure
