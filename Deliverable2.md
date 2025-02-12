@@ -1,19 +1,19 @@
 # Deliverable 1 Report
 ## Developers: Ryan Wood, Latisha Talayumptewa, Blase Gornick, Jeremiah Lopez, Brian Dorame, Alyssa Sombrero
 
-### Postitioning
+### Postitioning:
 
-### Stakeholders
+### Stakeholders:
 
-### Functional Requirements
+### Functional Requirements:
 
-### Non-Functional Requirements
+### Non-Functional Requirements:
 
-### Mininum Viable Product
+### Mininum Viable Product:
 
-### Use Cases
+### Use Cases:
 
-### User Stories
+### User Stories:
 
-### Issue Tracker
+### Issue Tracker:
 
