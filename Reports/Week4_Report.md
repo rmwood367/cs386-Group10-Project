@@ -17,6 +17,9 @@
       - GitHub Summary:
 
 * Latisha Talyumptewa
+  - Contributed to deliverables worksheet
+  - Contributed to use case and user stories
+  - Discussed further information on the website
     - GitHub Summary:
 
 * Blase Gornick
