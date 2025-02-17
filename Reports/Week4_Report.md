@@ -77,8 +77,8 @@
     - Discuss designs
 
 * Alyssa Sombrero
-    -Digitally share the potential logo when everyone agrees on the logo they want to use
-    -Help with the coding portion of the website
-    -Draft up the next Weekly Report
-    -Help with any design portions of the website (background, custom imagery, etc)
+      -Digitally share the potential logo when everyone agrees on the logo they want to use
+      -Help with the coding portion of the website
+      -Draft up the next Weekly Report
+      -Help with any design portions of the website (background, custom imagery, etc)
 
