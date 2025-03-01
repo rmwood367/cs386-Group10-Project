@@ -22,7 +22,11 @@
     - GitHub Summary: # pull request : # commit
 
 * Brian Dorame
-    - GitHub Summary: # pull request : # commit
+  * Created rough draft for deliverable 3
+  * Contributed classes to be used on UML diagram
+  * contirbuted to meeting disscusion
+  * cotributed to uml class digram
+    - GitHub Summary: 1 pull request : 2 commit
 
 * Alyssa Sombrero
     * Created the draft for Weekly Report 6
@@ -52,7 +56,9 @@
     -
 
 * Brian Dorame
-    -
+    - work on midterm Presentation
+    - make sure the presentation is reviewed
+    - Start getting setup for coding
 
 * Alyssa Sombrero
     - Contribute to the Midterm Presentation and bring up ways to have everyone contribute
