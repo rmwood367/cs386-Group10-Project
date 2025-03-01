@@ -16,7 +16,10 @@
     - GitHub Summary: # pull request : # commit
 
 * Blase Gornick
-    - GitHub Summary: # pull request : # commit
+    - Added to Report
+    - Added to UML diagram
+    - Contributed to planning of deliverable and weekly report
+    - GitHub Summary: 1 pull request : 1 commit
 
 * Jermiah Lopez
     - GitHub Summary: # pull request : # commit
@@ -34,9 +37,9 @@
 ## Retrospective
 1. Appreciation: Appreciate Brian Dorame for creating the attributes and classes for the UML diagram to start off discussiion about it
 2. Successes: Our team were able to have a successful meeting with everyone present and be a day earlier than previous meetings
-3. Failures: UML Diagram was finished past the expected deadline by Friday
+3. Failures: UML Diagram was finished past the expected deadline by Friday. Some classes and attributes were changed last minute.
 4. Barriers: Our team was planning how to have everyone contribute, aware of the upcoming warnings concerning with GitHub Issues, Pull Request, usage of Issues.
-5. What we should try next time:
+5. What we should try next time: Hard, late deadlines seem somewhat unattainable. We should set earlier deadlines to allow for flexibility.
 
 ## Next Steps:
 * Ryan Wood:
@@ -46,7 +49,8 @@
     -
 
 * Blase Gornick
-    -
+    - Work on midterm presentation and assign speaking parts to group members
+    - Create and begin next report
 
 * Jermiah Lopez
     -
