@@ -41,10 +41,34 @@ Attributes: adminID, username, password, email
 
 Methods: login(), approveMovie(), removeMovie(), banUser(), approveReview()
 
-5. Stream:
+5. Recomendation:
 
-6. Display:
+Attributes: userID, filmID, userFavoriteGenre
 
-7. PublisherDisplay:
+Methods: generateRecomendations()
 
-8. Userdisplay:
+6. Watchlist:
+
+Attributes: userID, movieID, watchlist
+
+Methods: addFilm(), removeFilm()
+
+7. Reviews:
+
+Attributes: reviewID, userID, filmID, rating, comment, commentDate
+
+Methods: addComment(), editComment(), deleteComment()
+
+8. Favorites:
+
+Attributes: userID, movieID, favoriteMovie
+
+Method: addFavorite(), deleteFavorite()
+
+9. Assesments
+
+Attributes: publisherID, FilmID, submissionDate, status, comments
+
+Method: updateStatus(), submitMovie()
+
+    
