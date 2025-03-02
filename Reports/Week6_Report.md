@@ -16,7 +16,9 @@
     - Helped plan UML diagram classes
 
 * Latisha Talyumptewa
-    - GitHub Summary: # pull request : # commit
+    - Attended meeting discussion
+    - Reviewed UML diagram
+    - GitHub Summary: 1 pull request : 1 commit
 
 * Blase Gornick
     - Added to Report
@@ -57,7 +59,8 @@
     - Design website
 
 * Latisha Talayumptewa
-    -
+    - Contribute to midterm presentation
+    - Help to start working on code and next report
 
 * Blase Gornick
     - Work on midterm presentation and assign speaking parts to group members
