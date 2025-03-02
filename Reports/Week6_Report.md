@@ -11,6 +11,9 @@
 ## Activity Summary:
 * Ryan Wood
     - GitHub Summary: # pull request : # commit
+    - Added to UML diagram
+    - Contributed to deliverable project description
+    - Helped plan UML diagram classes
 
 * Latisha Talyumptewa
     - GitHub Summary: # pull request : # commit
@@ -48,7 +51,10 @@
 
 ## Next Steps:
 * Ryan Wood:
-    -
+    - Plan next meeting after break
+    - Work on midterm presentation before wednesday
+    - Begin a starting point for code of project
+    - Design website
 
 * Latisha Talayumptewa
     -
