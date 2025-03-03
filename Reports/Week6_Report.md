@@ -10,10 +10,10 @@
 
 ## Activity Summary:
 * Ryan Wood
-    - GitHub Summary: # pull request : # commit
     - Added to UML diagram
     - Contributed to deliverable project description
     - Helped plan UML diagram classes
+    - GitHub Summary: # pull request : # commit
 
 * Latisha Talyumptewa
     - Attended meeting discussion
@@ -35,8 +35,8 @@
 * Brian Dorame
     * Created rough draft for deliverable 3
     * Contributed classes to be used on UML diagram
-    * contirbuted to meeting disscusion
-    * cotributed to uml class digram
+    * Contributed to meeting discussion
+    * Contributed to UML class diagram
     - GitHub Summary: 2 pull request : 2 commit
     
 
@@ -49,15 +49,19 @@
 
 ## Retrospective
 1. Appreciation: Appreciate Brian Dorame for creating the attributes and classes for the UML diagram to start off a discussion about it
+
 2. Successes: Our team were able to have a successful meeting with everyone present and be a day earlier than previous meetings
+
 3. Failures: UML Diagram was finished past the expected deadline by Friday. Some classes and attributes were changed last minute.
+
 4. Barriers: Our team was planning how to have everyone contribute, aware of the upcoming warnings concerning with GitHub Issues, Pull Request, usage of Issues.
+
 5. What we should try next time: Hard, late deadlines seem somewhat unattainable. We should set earlier deadlines to allow for flexibility.
 
 ## Next Steps:
 * Ryan Wood:
     - Plan next meeting after break
-    - Work on midterm presentation before wednesday
+    - Work on midterm presentation before Wednesday
     - Begin a starting point for code of project
     - Design website
 
