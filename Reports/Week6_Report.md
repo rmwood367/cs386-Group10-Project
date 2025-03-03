@@ -25,6 +25,7 @@
     - Added to UML diagram
     - Contributed to planning of deliverable and weekly report
     - GitHub Summary: 1 pull request : 1 commit
+    - Formatted and added to deliverable system description
 
 * Jeremiah Lopez
     -  Attend Meeting Discussion
