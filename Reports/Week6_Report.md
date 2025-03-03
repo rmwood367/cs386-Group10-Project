@@ -26,8 +26,11 @@
     - Contributed to planning of deliverable and weekly report
     - GitHub Summary: 1 pull request : 1 commit
 
-* Jermiah Lopez
-    - GitHub Summary: # pull request : # commit
+* Jeremiah Lopez
+    -  Attend Meeting Discussion
+    -  Discuss UML diagram classes
+    -  Contributed to overall professionalism of Deliverable 3
+    -  GitHub Summary: 2 pull request : 2 commit
 
 * Brian Dorame
     * Created rough draft for deliverable 3
@@ -66,8 +69,10 @@
     - Work on midterm presentation and assign speaking parts to group members
     - Create and begin next report
 
-* Jermiah Lopez
-    -
+* Jeremiah Lopez
+    - Work on Midterm Presentation
+    - Work on next Report
+    - Set up for coding
 
 * Brian Dorame
     - work on midterm Presentation
