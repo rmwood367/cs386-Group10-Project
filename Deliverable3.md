@@ -8,11 +8,11 @@
 
 **Key Requiremnts:** 
 <!-- awating class digrams -->
-
-
+Film Haven must fill the needs of both indie filmmakers and film enthusiasts, offering a user friendly and feature packed platform. The system must support **UserAccount** creation and management, allowing users to securely register, login, and update their *bio* or *favoriteGenres*. **Publishers** update their profile to include *bio*, *genreSpecializaiton* and *websitelink* and need a simple process to submit their **Movie** for **Assessment** by **Admins**, ensuring it is following platform guidelines. The system must also provide personalized **Recommendations** generated from *userFavoriteGenres* to help the user discover new indie films based on their viewing history and preferences. Additonallly, user should be able to create and manage **Watchlists** and mark films as **Favorites** for easy access. The platform must include a **Review system**, allowing users to add *ratings* and *comments* to Movies to create community engagement through comments and interactions. **Admins** must have the tools to review and approve film submissions, ban users to regulate platform rules. Finally, **Movies** should be easily searched by user by varius criteria such as *genre*, *year*, *ratings* , and *titles* allowing for a seamless and engaging experience for all stakeholders.
 
 **Model:**
 <!-- diagram to be developed -->
+
 
 <!-- below will be delted once digram is complete -->
 Classes:
