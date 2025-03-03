@@ -48,7 +48,7 @@
     - GitHub Summary: 1 pull : 1 commit
 
 ## Retrospective
-1. Appreciation: Appreciate Brian Dorame for creating the attributes and classes for the UML diagram to start off discussiion about it
+1. Appreciation: Appreciate Brian Dorame for creating the attributes and classes for the UML diagram to start off a discussion about it
 2. Successes: Our team were able to have a successful meeting with everyone present and be a day earlier than previous meetings
 3. Failures: UML Diagram was finished past the expected deadline by Friday. Some classes and attributes were changed last minute.
 4. Barriers: Our team was planning how to have everyone contribute, aware of the upcoming warnings concerning with GitHub Issues, Pull Request, usage of Issues.
