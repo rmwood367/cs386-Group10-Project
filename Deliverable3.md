@@ -11,6 +11,7 @@ FilmHaven must fill the needs of both indie filmmakers and film enthusiasts, off
 
 **Model:**
 <!-- diagram to be developed -->
-![Screenshot 2025-03-02 205831](https://github.com/user-attachments/assets/e32d92e1-36a8-49cd-a3cc-927795047bae)
+<img width="710" alt="Screenshot_2025-03-02_at_9 13 51_PM" src="https://github.com/user-attachments/assets/5ea53478-73b3-4183-ab23-d367974c268c" />
+
 
     
