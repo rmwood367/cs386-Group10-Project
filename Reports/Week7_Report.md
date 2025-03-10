@@ -26,14 +26,18 @@
     - GitHub Summary:
 
 * Alyssa Sombrero
-    - GitHub Summary:
+  - presented with group on Wednesday
+  - Reviewed and approved creation of Report 7 with edits
+  - added more items on Report 7 (can be changed by people if needed too)
+  - Reflected on the presentation and find minor ways to improve it when it comes to Finals
+    - GitHub Summary: 1 pull request : 1 commit
 
 ## Retrospective
 1. Appreciation:
-2. Successes:
-3. Failures:
-4. Barriers:
-5. What we should try next time:
+2. Successes: 
+3. Failures: Failed to have a meeting for Report 7 and its solely based on indiviual's actions
+4. Barriers: Its hard to be productive when its the weekend before Spring Break
+5. What we should try next time: Finish the Report Earlier when it comes to breaks
 
 ## Next Steps:
 * Ryan Wood:
@@ -54,4 +58,6 @@
     -
 
 * Alyssa Sombrero
-    -
+    - Understand the layout of the webpage
+    - implement layout to the webpage through html first (before adding routes)
+    - review progress and participation for the next report
