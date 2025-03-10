@@ -3,7 +3,7 @@
 #### FilmHaven
 #### Group: Ryan Wood, Latisha Talayumptewa, Blase Gornick, Jeremiah Lopez, Brian Dorame, Alyssa Sombrero
 #### Date: 03/09/2025
-#### Present Participants: Blase Gornick, Alyssa Sombrero, Latisha Talayumptewa
+#### Present Participants: Blase Gornick, Alyssa Sombrero, Latisha Talayumptewa, Jeremiah
 #### Missing Participants: ???
 #### Project Repo: https://github.com/rmwood367/cs386-Group10-Project.git
 
