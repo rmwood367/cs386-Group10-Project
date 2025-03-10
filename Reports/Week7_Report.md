@@ -23,7 +23,9 @@
     - GitHub Summary:
 
 * Brian Dorame
-    - GitHub Summary:
+    - contibuted to presentation
+    - presented in group
+    - github summary: 0 pull request: 1 commit
 
 * Alyssa Sombrero
   - presented with group on Wednesday
@@ -55,7 +57,9 @@
     -
 
 * Brian Dorame
-    -
+    -discuss code implementation
+    -implement code 
+  
 
 * Alyssa Sombrero
     - Understand the layout of the webpage
