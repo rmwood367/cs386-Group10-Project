@@ -10,6 +10,8 @@
 ## Activity Summary:
 * Ryan Wood
     - GitHub Summary:
+    - Presented with group on Wednesday
+    - made slide for group presentation 
 
 * Latisha Talyumptewa
     - Presented with group on Wednesday
@@ -47,7 +49,9 @@
 
 ## Next Steps:
 * Ryan Wood:
-    -
+    - start work towards next deliverable
+    - start getting a prototype product ready
+    - plan next meeting
 
 * Latisha Talayumptewa
     - Revise layout of website to start implementation of first code
