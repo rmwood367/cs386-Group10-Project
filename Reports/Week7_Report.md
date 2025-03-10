@@ -22,6 +22,8 @@
     - GitHub Summary: 1 pull request 1 commit 
 
 * Jermiah Lopez
+    - Worked on Presentation
+    - Presented 1 slide of presentation
     - GitHub Summary:
 
 * Brian Dorame
@@ -57,7 +59,8 @@
     - Refine previous steps before too much gets done
 
 * Jermiah Lopez
-    -
+    - Work on code structure
+    - work on next report
 
 * Brian Dorame
     -discuss code implementation
