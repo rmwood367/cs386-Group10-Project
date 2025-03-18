@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background: #222;
+    color: #cb510f;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links a {
+    color: #cb510f;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+    scale: 1.5;
+  }
+  
+  /* middle Section */
+  .middle {
+    /* bacground setting*/
+    background-image: url('images/film_background.PNG'); 
+    background-size: cover; 
+    background-position: center; 
+    
+    /*genral text and aligment*/
+    color: #cb510f;
+    text-align: center;
+    padding: 100px 20px;
+    min-height: 50px;
+    min-width: 50px;   
+  }
+  
+  .middle h1 {
+    /* Welcome to Flm Haven text */
+    font-size: 2.5rem;
+  }
+
+  .middle p {
+    /* Your gateway for... txt */
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .highlight {
+    /* Film Haven and gateway txt in main */
+    color: #ff0000; 
+    font-weight: bold;
+    font-style: italic;
+    font-weight: bolder;
+  }
+  
+  
+  /* get started button */
+  .gt-button {
+    background: #cb510f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    
+  }
+  /* hovering get started size change color */
+  .gt-button:hover {
+    background: #ff0000;
+    scale: 1.1;
+  }
+  
+  /* Features Section */
+  .features {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .feature {
+    text-align: center;
+    width: 30%;
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .feature h2 {
+    color: #cb510f;
+  }
+  
+  /* Footer */
+  footer {
+    background: #222;
+    color: #cb510f;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  
