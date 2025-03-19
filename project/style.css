@@ -47,10 +47,10 @@ body {
     background-position: center; 
     
     /*genral text and aligment*/
-    color: #cb510f;
+    color: #000000;
     text-align: center;
     padding: 100px 20px;
-    min-height: 50px;
+    min-height: 100px;
     min-width: 50px;   
   }
   
@@ -83,6 +83,7 @@ body {
     font-size: 1rem;
     cursor: pointer;
     border-radius: 8px;
+    margin-top: 20px;
     
   }
   /* hovering get started size change color */
