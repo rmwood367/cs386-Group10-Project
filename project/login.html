@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Film Haven</title>
+  <!--inlcude external files-->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <!--login section-->
+  <div class="login-container">
+    <h2>Welcome Back to Film Haven</h2>
+    <p>Log in to explore indie films.</p>
+    <form class="login-form">
+      <!--email field-->
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <!--passowrd field-->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      <!--login button-->
+      <button type="submit" class="login-button">Login</button> 
+    </form>
+  </div>
+
+  <!-- Horizontal Divider -->
+  <hr class="divider">
+
+  <!-- Sign-Up Section -->
+  <h2>Create an Account</h2>
+  <p>Sign up to showcase your work and explore unique indie films.</p>
+  <form class="signup-form">
+    <!-- first name field-->
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+    <!-- last name field-->
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+    <!-- birthday field that will check for age requirment-->
+    <label for="birthDate">Birthdate:</label>
+    <input type="date" id="birthDate" name="birthDate" required>
+    <!-- email field-->
+    <label for="emailSignup">Email Address:</label>
+    <input type="email" id="emailSignup" name="emailSignup" placeholder="Enter your email" required>
+    <!-- password field-->
+    <label for="passwordSignup">Password:</label>
+    <input type="password" id="passwordSignup" name="passwordSignup" placeholder="Create a password" required>
+    <!-- sign up button-->
+    <button type="submit" class="signup-button">Sign Up</button>
+  </form>
+</div>
+
+</body>
+</html>
