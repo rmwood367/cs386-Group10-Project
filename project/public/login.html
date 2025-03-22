@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Film Haven</title>
+  <!-- Include external files -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script> <!-- Keep frontend-specific JS only -->
+</head>
+<body>
+  <!-- Login Section -->
+  <div class="login-container">
+    <h2>Welcome Back to Film Haven</h2>
+    <p>Log in to explore indie films.</p>
+    <!-- provie method type and lavascript tags for handeling-->
+    <form class="login-form" action="/login" method="POST" onsubmit="handleLogin(event)">
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      
+      <button type="submit" class="login-button">Login</button>
+    </form>
+  </div>
+
+  <hr class="divider">
+
+  <!-- Sign-Up Section -->
+  <h2>Create an Account</h2>
+  <p>Sign up to showcase your work and explore unique indie films.</p>
+  <!-- method type and javascript type for handeling-->
+  <form class="signup-form" action="/signup" method="POST" onsubmit="handleSignup(event)">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" placeholder="First name" required>
+    
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" placeholder="Last name" required>
+    
+    <label for="birthDate">Birthdate:</label>
+    <input type="date" id="birthDate" name="birthDate" required>
+    
+    <label for="emailSignup">Email Address:</label>
+    <input type="email" id="emailSignup" name="emailSignup" placeholder="Your email" required>
+    
+    <label for="passwordSignup">Password:</label>
+    <input type="password" id="passwordSignup" name="passwordSignup" placeholder="Create a password" required>
+    
+    <button type="submit" class="signup-button">Sign Up</button>
+  </form>
+</body>
+</html>
