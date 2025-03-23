@@ -12,6 +12,7 @@
     - GitHub Summary:
 
 * Latisha Talyumptewa
+    - Assigned and worked on sign-up page for implementation.
     - GitHub Summary:
 
 * Blase Gornick
@@ -42,7 +43,8 @@
     -
 
 * Latisha Talayumptewa
-    -
+    - Continue to work on further development of the code.
+    - Conduct a review on what could be improved, changed, or added.
 
 * Blase Gornick
     -
