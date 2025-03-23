@@ -25,12 +25,11 @@ contribution.
 
 For example:
 
-> Add link to code of conduct in README.md
+README.md
 
 Doesn't tell us anything about why you're doing that
 
-> Add link to code of conduct in README.md because users don't always
-> look in the CONTRIBUTING.md
+CODE_OF_CONDUCT.md
 
 Tells us the problem that you have found, and the pull request shows us
 the action you have taken to solve it.
