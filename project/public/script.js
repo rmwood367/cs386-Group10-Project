@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const getStartedButton = document.querySelector(".gt-button");
   if (getStartedButton) {
     getStartedButton.addEventListener("click", () => {
-      window.location.href = "login.html"; // Redirect to the login page
+      window.location.href = "signup.html"; // Redirect to the login page
     });
   }
 });
