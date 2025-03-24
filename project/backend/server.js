@@ -18,7 +18,6 @@ app.use(express.json());
   //allow reqst from diff. domanis
   const cors = require('cors');
   app.use(cors());
-  app.use(cors({ origin: 'http://127.0.0.1:3000' })); 
   app.options('*', cors());
 
 // analyze the http requests
