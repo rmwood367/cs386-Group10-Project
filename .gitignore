@@ -1,0 +1,37 @@
+#ignore node_modules directory
+node_modules/
+
+#ignore dependency lock file
+package-lock.json
+
+#ignore logs and temporary files
+*.log
+*.tmp
+
+#ignore IDE-specific settings and files
+.vscode/
+.idea/
+
+#ignore system files
+.DS_Store
+Thumbs.db
+
+#ignore build artifacts (if applicable)
+*.out
+*.o
+*.exe
+*.class
+
+#ignore unnecessary deliverables and reports folder (if not essential for Git tracking)
+Deliverables/
+Reports/
+
+#ignore images directory in project folder (if not intended for Git tracking)
+project/images/
+
+#ignore backup and cache files
+*.bak
+*.swp
+
+#ignore test files
+test/
