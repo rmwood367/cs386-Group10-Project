@@ -22,8 +22,9 @@
 
 * Jeremiah Lopez
     - Assigned to work on display page
+    - Work on portions of deliverable/look for mistakes or errors
     - Reserved a meeting spot at Cline Library
-    - GitHub Summary:
+    - GitHub Summary: 8 Pull Requests : 10 Commits
 
 * Brian Dorame
     - GitHub Summary:
@@ -54,7 +55,7 @@
     -
 
 * Jermiah Lopez
-    - Reflect on what we learn for deliverable
+    - Apply what we learned for deliverable 4 on to deliverable 5
     - Review code for mistakes/errors
     - Continue to work on code
 
