@@ -29,7 +29,11 @@
     - GitHub Summary: 8 Pull Requests : 10 Commits
 
 * Brian Dorame
-    - GitHub Summary:
+* Created html skelton for project
+* created data base to svae user data
+* created sign up and sign implemtnation
+    - GitHub Summary: 2 pull requests 2 ommits
+
 
 * Alyssa Sombrero
     - Created Week 8 Report, and worked on Retrospective section.
@@ -63,7 +67,8 @@
     - Continue to work on code
 
 * Brian Dorame
-    -
+    - Polish the website
+    - work on adding more tables on the data base
 
 * Alyssa Sombrero
     - Once the implemenation is done, reflect on what could be improved for the next deliverable
