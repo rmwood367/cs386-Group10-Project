@@ -156,3 +156,4 @@ include link to a video showing sys working
 Criteria (5pts):
 graded based on quality of video, evidence that features are running as expected. Additional criteria are the relevance of demonstrated functionalities, correctnesss of funcitonalities, quality of developed system from user interface pov
 -->
+https://nau.zoom.us/rec/share/p7YSEiQ8MyB4hExQ51-cS_Dwb3FyFe-jPbiWY58KPz1WfLKqE-ZVN8FGO172zAO-.XmyIBzAyoAn-nH07
