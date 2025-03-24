@@ -9,9 +9,13 @@ Criteria (1pt):
 evaluated in terms of correctedness, completeness, thoroughness, consistency, coherence, adequate use of language
   desc consistent w/ current state of project
 -->
+Film Haven is a streaming entertainment website dedicated to original films created by independent writers
+and producers. Film Haven offers compelling and experimental stories that differ from
+mainstream industry norms. The features of the website allow for creation of an account for a viewer or a producer, a home page to allow you to browse indie movies, profile page customization, and the ability to create and share reviews. 
 
 #### Link to project on GitHub:
-[project]
+<!-- insert link -->
+https://github.com/rmwood367/cs386-Group10-Project
 
 ### Requirements:
 <!--
