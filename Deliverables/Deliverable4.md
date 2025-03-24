@@ -50,14 +50,15 @@ Requirement: As a user, I want to be able to search movies and see data on it af
 
 Requirments: As a user, I want to be able to create an account and save my data.
 - Issue: https://github.com/rmwood367/cs386-Group10-Project/issues/11
-- Pull Request: Sign Up styling Blase Gornick
-- Implemented by: Brian Dorame, Blase Gonrick
-- Approved by: Brian Dorame
-- Print screen: not applicable
+- Pull Request: Sign Up styling Blase Gornick link(https://github.com/rmwood367/cs386-Group10-Project/pull/52)
+- implemented by: Brian Dorame, Blase Gonrick
+- approved by: Brian Dorame
+- print screen: not applicable
 
 Reqirement: As a worker under the developer, I want to maintain the data presented in the server-side of the app.
 - Issue: https://github.com/rmwood367/cs386-Group10-Project/issues/62
-- Implemented by: Alyssa Sombrero
+- Pull Request: Created the Script.js for server side, integrated API, created .gitig... link (https://github.com/rmwood367/cs386-Group10-Project/pull/60)
+- Implemented by: Alyssa Sombrero, Ryan Wood
 - Approved by: Ryan Wood
 - Print Screen: Not applicable
 
