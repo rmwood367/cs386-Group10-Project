@@ -116,6 +116,7 @@ repo should contain a CONTRIBUTING.md file, LICENSE file, CODE_OF_CONDUCT.md fil
 Criteria (3pts):
   Based on presence & quality of information presented in files
 -->
+https://github.com/rmwood367/cs386-Group10-Project/blob/main/README.md
 
 ### UX Design:
 The design approach we did for our user interface was simplicity and easy accessbility. We wanted our users to easily go through our site and know about it is about without overwhelming them. We add eye-popping aesthetics that grab the user's attention and directs them to places we want them to show. This includes our film of the week or any potential film news. The user interface is very responsive and smooth throughout the website and allows for easy traversal between pages. Certain titles/sections will use different colors to distinguish themselves from the sections around them. We attempt to use a cinema aesthetic with the images we used, corresponding with the idea of our website. 
