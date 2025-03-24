@@ -61,6 +61,12 @@ Reqirement: As a worker under the developer, I want to maintain the data present
 - Approved by: Ryan Wood
 - Print Screen: Not applicable
 
+Requirement: As a user, I want to see my reviews, news, and recommendations based on the interests.
+- Issue: https://github.com/rmwood367/cs386-Group10-Project/issues/9
+- Pull Request: Added Display Page
+- Implemented by: Jeremiah Lopez
+- Approved by: Ryan Wood
+- Print Screen: Not applicable
 ### Tests:
 <!--
 implement automated tests that verify correct behavior of code
