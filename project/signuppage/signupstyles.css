@@ -1,0 +1,116 @@
+/*Styles*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*header section*/
+header {
+    background: #222;
+    color: #cb510f;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+
+  .nav-links a {
+    color: #cb510f;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+    scale: 1.5;
+  }
+
+/*middle section*/
+.middle{
+    background-image: url('signup_background.jpg');
+    background-size: cover; 
+    background-position: center; 
+    padding: 30px;
+    
+}
+
+
+.signup-container{
+    width: 40%;
+    margin: 40px auto;
+    border-radius: 8px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff0000;
+}
+
+p{
+    font-family:'Segoe UI';
+    text-align: center;;
+    font-weight: bold;
+}
+
+label{
+    font-family:'Segoe UI';
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"]{
+        padding: 5px;
+        margin-bottom: 10px;
+}
+
+input[type="submit"]{
+  height: 30px;
+  background-color: #cb510f;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+
+input[type="submit"]:hover{
+    background-color:tomato;
+}
+
+
+  /* Footer */
+  footer {
+    background: #222;
+    color: #cb510f;
+    text-align: center;
+    padding: 10px 20px;
+  }
