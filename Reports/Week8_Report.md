@@ -18,7 +18,9 @@
     - GitHub Summary:
 
 * Blase Gornick
-    - GitHub Summary:
+    - Updated and worked on signup source code
+    - Worked on main deliverable document
+    - GitHub Summary: 1 pull 1 commit
 
 * Jeremiah Lopez
     - Assigned to work on display page
@@ -37,8 +39,8 @@
 ## Retrospective
 1. Appreciation: Brian Dorame created a base code to start the implementation off, making it more lenient on other teammates.
 2. Successes: Our team has successfully divided the code and were able to organize which is the most important implementation
-3. Failures: We started locking in on the project more later than it should have.
-4. Barriers: One of the barriers we are facing is how we, as a team, are going to organize and finish Deliverable 4 by Saturday.
+3. Failures: We started focusing more on the project more later than it should have.
+4. Barriers: One of the barriers we are facing is how we, as a team, are going to organize and finish Deliverable 4 by Sunday. We also have had trouble connecting all the html.
 5. What we should try next time: We should've had a 30 minute meeting / small meeting to understand and better prepare for Deliverable 4.
 
 ## Next Steps:
@@ -52,7 +54,8 @@
     - Conduct a review on what could be improved, changed, or added.
 
 * Blase Gornick
-    -
+    - Continue to work on implementation of signup
+    - Identify problems with current implementation and begin to work on fixes.
 
 * Jermiah Lopez
     - Apply what we learned for deliverable 4 on to deliverable 5
