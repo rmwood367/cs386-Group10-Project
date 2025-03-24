@@ -41,7 +41,7 @@ header {
 
 /*middle section*/
 .middle{
-    background-image: url(/project/images/signup_background.jpg);
+    background-image: url(/project/public/images/signup_background.jpg);
     background-size: cover; 
     background-position: center; 
     padding: 30px;
