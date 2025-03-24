@@ -52,6 +52,12 @@ Requirement: As a user, I want to be able to search movies and see data on it af
 - Approved by: Jeremiah Lopez
 - Print Screen: Not applicable
 
+Reqirement: As a worker under the developer, I want to maintain the data presented in the server-side of the app.
+- Issue: https://github.com/rmwood367/cs386-Group10-Project/issues/62
+- Implemented by: Alyssa Sombrero
+- Approved by: Ryan Wood
+- Print Screen: Not applicable
+
 ### Tests:
 <!--
 implement automated tests that verify correct behavior of code
