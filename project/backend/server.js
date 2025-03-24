@@ -16,8 +16,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
   //analyze code of json requests
 app.use(express.json()); 
   //allow reqst from diff. domanis
-const cors = require('cors');
-app.use(cors());
+  const cors = require('cors');
+  app.use(cors());
+  app.use(cors({ origin: 'http://127.0.0.1:3000' })); 
+  app.options('*', cors());
 
 // analyze the http requests
 app.use(express.json());
@@ -45,8 +47,7 @@ db.connect((err) => {
   console.log('Connected to the Railway database!');
 });
 
-//analyz the http json data
-app.use(express.json());
+
 
 // Signup endpoint
   // define sigup handle psot requsts
