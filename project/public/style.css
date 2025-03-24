@@ -42,7 +42,7 @@ body {
   /* middle Section */
   .middle {
     /* bacground setting*/
-    background-image: url('images/film_background.PNG'); 
+    background-image: url(/project/public/images/film_background.PNG); 
     background-size: cover; 
     background-position: center; 
     
