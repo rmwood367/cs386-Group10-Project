@@ -80,6 +80,8 @@ implement automated tests that verify correct behavior of code
   Criteria (3pts):
     adequate # of automated tests, should be well-written to excercise main components of system, covering relevant inputs
 -->
+![image](https://github.com/user-attachments/assets/d8815619-adda-4598-ba34-782776d2ac7b)
+
 
 ### Technology:
 <!--
