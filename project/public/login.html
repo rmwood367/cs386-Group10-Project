@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Film Haven</title>
+  <!-- Include external files -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script> 
+</head>
+<body>
+  <!-- Login Section -->
+  <div class="login-container">
+    <h2>Welcome Back to Film Haven</h2>
+    <p>Log in to explore indie films.</p>
+    <!-- provie method type and lavascript tags for handeling-->
+    <form class="login-form" action="/login" method="POST" onsubmit="handleLogin(event)">
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      
+      <button type="submit" class="login-button">Login</button>
+
+      <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+
+    </form>
+  </div>
+
+  
+</body>
+</html>
