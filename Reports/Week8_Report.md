@@ -9,6 +9,8 @@
 
 ## Activity Summary:
 * Ryan Wood
+    - Work on API Implementation
+    - Work on Introduction, Implementation, and the Demo section for deliverable 4
     - GitHub Summary:
 
 * Latisha Talyumptewa
@@ -40,7 +42,9 @@
 
 ## Next Steps:
 * Ryan Wood:
-    -
+    - Plan meeting
+    - Find a way to merge API into existing files
+    - continue developing new files for the code base
 
 * Latisha Talayumptewa
     - Continue to work on further development of the code.
