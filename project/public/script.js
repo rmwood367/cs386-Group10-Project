@@ -75,7 +75,7 @@ function handleSignup(event) {
       if (response.ok) {
         // message succes and load mpage
         alert('Signup successful! Welcome to Film Haven.');
-        window.location.href = '/placeholder'; // placholder for new page after signup
+        window.location.href = 'login.html'; // placholder for new page after signup
       } else {
         // unscuccesful alert uncsufull message
         response.text().then(text => alert('Error: ' + text));
