@@ -2,17 +2,13 @@
 ## Developers: Ryan Wood, Latisha Talayumptewa, Blase Gornick, Jeremiah Lopez, Brian Dorame, Alyssa Sombrero
 
 ### Introduction: 
-Film Haven is a streaming platform for movie lovers and aspiring filmmakers, featuring original, experimental films by independent creators where each user can create their own reviews, look at the latest movie releases/news, and customize your own profile to interact with the community.
+Film Haven is a streaming platform for movie lovers and aspiring filmmakers, featuring original, experimental films by independent creators where each user can create an account for a viewer or a producer, a home page to allow you to browse indie movies, profile page customization, and the ability to create and share reviews. 
 <!--  Short paragraph to describe system (Has value prop & description of main features)
 
 Criteria (1pt):
 evaluated in terms of correctedness, completeness, thoroughness, consistency, coherence, adequate use of language
   desc consistent w/ current state of project
 -->
-Film Haven is a streaming entertainment website dedicated to original films created by independent writers
-and producers. Film Haven offers compelling and experimental stories that differ from
-mainstream industry norms. The features of the website allow for creation of an account for a viewer or a producer, a home page to allow you to browse indie movies, profile page customization, and the ability to create and share reviews. 
-
 #### Link to project on GitHub:
 <!-- insert link -->
 https://github.com/rmwood367/cs386-Group10-Project
@@ -54,10 +50,10 @@ Requirement: As a user, I want to be able to search movies and see data on it af
 
 Requirments: As a user, I want to be able to create an account and save my data.
 - Issue: https://github.com/rmwood367/cs386-Group10-Project/issues/11
-Pull Request: Sign Up styling Blase Gornick link(https://github.com/rmwood367/cs386-Group10-Project/pull/52)
-implemented by: Brian Dorame, Blase Gonrick
-approved by: Brian Dorame
-print screen: not applicable
+- Pull Request: Sign Up styling Blase Gornick link(https://github.com/rmwood367/cs386-Group10-Project/pull/52)
+- implemented by: Brian Dorame, Blase Gonrick
+- approved by: Brian Dorame
+- print screen: not applicable
 
 Reqirement: As a worker under the developer, I want to maintain the data presented in the server-side of the app.
 - Issue: https://github.com/rmwood367/cs386-Group10-Project/issues/62
@@ -121,6 +117,7 @@ repo should contain a CONTRIBUTING.md file, LICENSE file, CODE_OF_CONDUCT.md fil
 Criteria (3pts):
   Based on presence & quality of information presented in files
 -->
+https://github.com/rmwood367/cs386-Group10-Project/blob/main/README.md
 
 ### UX Design:
 The design approach we did for our user interface was simplicity and easy accessbility. We wanted our users to easily go through our site and know about it is about without overwhelming them. We add eye-popping aesthetics that grab the user's attention and directs them to places we want them to show. This includes our film of the week or any potential film news. The user interface is very responsive and smooth throughout the website and allows for easy traversal between pages. Certain titles/sections will use different colors to distinguish themselves from the sections around them. We attempt to use a cinema aesthetic with the images we used, corresponding with the idea of our website. 
