@@ -9,6 +9,8 @@
 
 ## Activity Summary:
 * Ryan Wood
+    - Work on API Implementation
+    - Work on Introduction, Implementation, and the Demo section for deliverable 4
     - GitHub Summary:
 
 * Latisha Talyumptewa
@@ -20,8 +22,9 @@
 
 * Jeremiah Lopez
     - Assigned to work on display page
+    - Work on portions of deliverable/look for mistakes or errors
     - Reserved a meeting spot at Cline Library
-    - GitHub Summary:
+    - GitHub Summary: 8 Pull Requests : 10 Commits
 
 * Brian Dorame
     - GitHub Summary:
@@ -40,7 +43,9 @@
 
 ## Next Steps:
 * Ryan Wood:
-    -
+    - Plan meeting
+    - Find a way to merge API into existing files
+    - continue developing new files for the code base
 
 * Latisha Talayumptewa
     - Continue to work on further development of the code.
@@ -50,7 +55,7 @@
     -
 
 * Jermiah Lopez
-    - Reflect on what we learn for deliverable
+    - Apply what we learned for deliverable 4 on to deliverable 5
     - Review code for mistakes/errors
     - Continue to work on code
 

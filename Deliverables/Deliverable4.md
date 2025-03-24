@@ -45,6 +45,12 @@ print screen: <print screen that depicts implemented feature
 
 
 -->
+Requirement: As a user, I want to be able to search movies and see data on it after looking for one.
+Issue: https://github.com/rmwood367/cs386-Group10-Project/issues/57
+Pull Request: Pending
+Implemented by: Ryan Wood and Alyssa Sombrero
+Approved by: 
+Print Screen: Not applicable
 
 ### Tests:
 <!--
