@@ -31,7 +31,7 @@ function handleLogin(event) {
       if (response.ok) {
         //messge for succes
         alert('Login successful! Welcome back to Film Haven.');
-        window.location.href = '/placehoder'; // placehoder once user logs in diret to site...
+        window.location.href = 'displaypage.html'; // placehoder once user logs in diret to site...
         // else alert for differnte errors
       } else if (response.status === 401) { 
         alert('Invalid email or password. Please try again.');
