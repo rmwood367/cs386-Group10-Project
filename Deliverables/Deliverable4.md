@@ -51,7 +51,7 @@ Requirement: As a user, I want to be able to search movies and see data on it af
 Requirments: As a user, I want to be able to create an account and save my data.
 - Issue: https://github.com/rmwood367/cs386-Group10-Project/issues/11
 - Pull Request: Sign Up styling Blase Gornick link(https://github.com/rmwood367/cs386-Group10-Project/pull/52)
-- implemented by: Brian Dorame, Blase Gonrick
+- implemented by: Brian Dorame, Blase Gonrick, Latisha Talayumptewa
 - approved by: Brian Dorame
 - print screen: not applicable
 
