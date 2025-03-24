@@ -25,11 +25,11 @@ contribution.
 
 For example:
 
-README.md
+[README.md]
 
 Doesn't tell us anything about why you're doing that
 
-CODE_OF_CONDUCT.md
+[CODE_OF_CONDUCT.md]
 
 Tells us the problem that you have found, and the pull request shows us
 the action you have taken to solve it.
