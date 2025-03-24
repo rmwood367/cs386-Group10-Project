@@ -2,8 +2,8 @@
 ## Developers: Ryan Wood, Latisha Talayumptewa, Blase Gornick, Jeremiah Lopez, Brian Dorame, Alyssa Sombrero
 
 ### Introduction: 
-<!--
-Short paragraph to describe system (Has value prop & description of main features)
+Film Haven is a streaming platform for movie lovers and aspiring filmmakers, featuring original, experimental films by independent creators where each user can create their own reviews, look at the latest movie releases/news, and customize your own profile to interact with the community.
+<!--  Short paragraph to describe system (Has value prop & description of main features)
 
 Criteria (1pt):
 evaluated in terms of correctedness, completeness, thoroughness, consistency, coherence, adequate use of language
@@ -66,10 +66,10 @@ List the adopted technologies w/ brief description & justification for choosing 
 Criteria (1pt):
   evaluated in terms of correctness, completeness, thoroughness, consistency, coherence, adequate use of language
 -->
-* Computer / Laptop:
+* Computer / Laptop: Laptops were used due to easy access and ability to work on our coding environment anywhere we go, and computers were a preference for some when working at home.
 <!-- insert description of using computers and laptops to work our software . Maybe include the hardwares that allows computers to interact w/ application -->
 
-* Azure:
+* Azure: This is the deployment platform we used for this project.
 <!-- possibly insert description of Azure and how its needed to deploy website -->
   
 ### Deployment:
@@ -85,6 +85,7 @@ Criteria (3pts):
     <!-- insert description -->
 
 ### Licensing:
+MIT License was chosen for this project because its simplicity, permissiveness, and allowing for open collaboration, making it appealing for open-source projects.
 <!--
 Inform license you've adopted in source code and explain why you adopted this license
 
@@ -98,10 +99,15 @@ pepare a Readme.md file
 repo should contain a CONTRIBUTING.md file, LICENSE file, CODE_OF_CONDUCT.md file
 
 Criteria (3pts):
-  Basedo on presence & quality of information presented in files
+  Based on presence & quality of information presented in files
 -->
 
 ### UX Design:
+The design approach we did for our user interface was simplicity and easy accessbility. We wanted our users to easily go through our site and know about it is about without overwhelming them. We add eye-popping aesthetics that grab the user's attention and directs them to places we want them to show. This includes our film of the week or any potential film news. The user interface is very responsive and smooth throughout the website and allows for easy traversal between pages. Certain titles/sections will use different colors to distinguish themselves from the sections around them. We attempt to use a cinema aesthetic with the images we used, corresponding with the idea of our website. 
+![image](https://github.com/user-attachments/assets/e348a166-28db-4079-a816-66374c453c73)
+![CS386Sreenshot1](https://github.com/user-attachments/assets/a55234b8-de04-4d3b-8bd8-25ca93bac1f2)
+![CS386Screenshot3](https://github.com/user-attachments/assets/d6f3c070-70b6-4e6d-a78a-f9a61d10993d)
+
 <!--
 Describe approach you adopted to design user interface (include screen shots)
 
@@ -110,6 +116,7 @@ Criteria (3pts):
 -->
 
 ### Lessons Learned:
+One of the problems we had with this project was trying to merge between many different branches. We had to split out work between many people, causing us to creating many branches and pull requests, therefore, creating slight confusion on what can access what. This was quickly resolved as we learned more about github and its features, while communicating between each other. Another problem was doing this all relatively last minute. Despite coming up the features beforehand and communicating our parts, we still turned in this deliverabled pretty last minute. For the 2nd release, we will regulate our time more efficiently and effectively. We will learn more about the programs and environments we use and communicate to each other thoroughly to get project done.
 <!--
 describe what your team learned during 1s t release & what you are planning to change for 2nd release
 
