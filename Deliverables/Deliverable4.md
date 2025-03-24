@@ -102,9 +102,9 @@ Criteria (3pts):
   graded based on adequate use of tech & its description
 -->
 
-* Link: <!-- insert link -->
+* Link: http://localhost:3000
 * How we are deploying *Film Haven* into Azure:
-    <!-- insert description -->
+    Before we deploy the website into Azure, we decided to test it out using node.js first. We implemented API routing so it can be run on local system (via localhost:3000). We will first test out the website on node using command (*node script.js* in the group10 directory). If everything is working correctly, then we'll copy the files into Azure for official deployment. 
 
 ### Licensing:
 MIT License was chosen for this project because its simplicity, permissiveness, and allowing for open collaboration, making it appealing for open-source projects.
