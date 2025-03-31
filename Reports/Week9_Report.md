@@ -20,8 +20,10 @@
 * Blase Gornick
     - GitHub Summary:
 
-* Jermiah Lopez
-    - GitHub Summary:
+* Jeremiah Lopez
+    - Worked on the report
+    - Scheduled meeting
+    - GitHub Summary: 1 Pull Request: 1 Commit
 
 * Brian Dorame
     - created report 9
@@ -51,8 +53,11 @@
 * Blase Gornick
     -
 
-* Jermiah Lopez
-    -
+* Jeremiah Lopez
+    - Work on new pages for website
+    - Work on styling on website
+    - Schedule next meeting
+    - Polish code and look for errors
 
 * Brian Dorame
     - polishing the code
