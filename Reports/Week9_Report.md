@@ -18,7 +18,10 @@
     - GitHub Summary:
 
 * Blase Gornick
-    - GitHub Summary:
+    -Worked on report
+    -Analyzed implementation for improvements
+    - Helped organize meetings and due dates
+    - GitHub Summary: 1 pull request 1 commit
 
 * Jeremiah Lopez
     - Worked on the report
@@ -51,7 +54,8 @@
     -
 
 * Blase Gornick
-    -
+    - Setup early meeting
+    - Create analysis of what went wrong and what worked well in our first implementation
 
 * Jeremiah Lopez
     - Work on new pages for website
