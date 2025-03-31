@@ -36,7 +36,10 @@
     - GitHub Summary: 1 pull requests: 1 commit
 
 * Alyssa Sombrero
-    - GitHub Summary:
+    - Worked on the report
+    - Reflected on the output of the website and marked any possible improvements on VS
+    - Looked over other JavaScript codes to see if theres any improvemnts to be made on what was implemented
+    - GitHub Summary: 1 Pull Request : 0 commits
 
 ## Retrospective
 1. Appreciation: Brian created the report for people to add their information this week
@@ -72,4 +75,6 @@
     - make sure to host the website
 
 * Alyssa Sombrero
-    -
+    - Review the code again
+    - Create a background to incorporate in the website
+    - Create comments in the code for easier understandings
