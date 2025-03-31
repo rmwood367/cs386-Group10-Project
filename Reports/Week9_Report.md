@@ -15,6 +15,8 @@
     - Github Summary:
 
 * Latisha Talyumptewa
+    - Worked on the report
+    - Reviewed previous implementation for improvements
     - GitHub Summary:
 
 * Blase Gornick
@@ -48,7 +50,8 @@
     - Clean up repository
 
 * Latisha Talayumptewa
-    -
+    - Integrate new pages into website
+    - Refining code for overall improvement
 
 * Blase Gornick
     -
