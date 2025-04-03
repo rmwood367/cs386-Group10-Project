@@ -2,9 +2,9 @@
 
 #### Indie Movie Website
 #### Group: Ryan Wood, Latisha Talayumptewa, Blase Gornick, Jeremiah Lopez, Brian Dorame, Alyssa Sombrero
-#### Date: 4/3/2025
-#### Present Participants: All members present
-#### Missing Participants: nobody
+#### Date:
+#### Present Participants: 
+#### Missing Participants: 
 #### Project Repo: https://github.com/rmwood367/cs386-Group10-Project.git
 
 ## Activity Summary:
