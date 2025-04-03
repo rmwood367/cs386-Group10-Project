@@ -1,10 +1,10 @@
-### Report for Week *X*
+### Report for Week *10*
 
 #### Indie Movie Website
 #### Group: Ryan Wood, Latisha Talayumptewa, Blase Gornick, Jeremiah Lopez, Brian Dorame, Alyssa Sombrero
-#### Date: 
-#### Present Participants: 
-#### Missing Participants: 
+#### Date: 4/3/2025
+#### Present Participants: All members present
+#### Missing Participants: nobody
 #### Project Repo: https://github.com/rmwood367/cs386-Group10-Project.git
 
 ## Activity Summary:
