@@ -10,6 +10,7 @@ https://github.com/rmwood367/cs386-Group10-Project
 ### Architecure: 
 
 ### Class Diagrams:
+![ClassDiagram5 drawio (2)](https://github.com/user-attachments/assets/996d52e5-2425-49e7-94a7-16bd96a11bb1)
 
 ### Sequence Diagrams: 
 
