@@ -11,7 +11,9 @@
 ## Activity Summary:
 * Ryan Wood
     - GitHub Summary:
-
+    - Worked on Review Page Implementation with Latisha's Help
+    - Sent Deliverable 5 for review
+    
 * Latisha Talyumptewa
     - GitHub Summary:
 
