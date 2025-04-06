@@ -6,7 +6,7 @@
   <title>Login | Film Haven</title>
   <!-- Include external files -->
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script> 
+   
 </head>
 <body>
   <!-- Login Section -->
@@ -14,9 +14,7 @@
     <h2>Welcome Back to Film Haven</h2>
     <p>Log in to explore indie films.</p>
     <!-- provie method type and lavascript tags for handeling-->
-    <form class="login-form" action="/login" method="POST" onsubmit="handleLogin(event)">
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <form class="login-form" method="POST" onsubmit="handleLogin(event)">      <input type="email" id="email" name="email" placeholder="Enter your email" required>
       
       <label for="password">Password:</label>
       <input type="password" id="password" name="password" placeholder="Enter your password" required>
@@ -30,4 +28,6 @@
 
   
 </body>
+<script src="script.js"></script>
+
 </html>

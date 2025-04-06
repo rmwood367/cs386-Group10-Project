@@ -294,3 +294,113 @@ body {
   transform: scale(1.15);
   transition: transform 0.3s ease-in-out;
 }
+
+/* userPrefneces styling */
+
+
+/* Styling for Preferences Page */
+.preferences-body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9; /* Light gray background */
+  margin: 0;
+  display: flex; /* Use Flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+/* Styling the card container */
+#accountTypeSection,
+#genresSection,
+#bioSection {
+  background-color: #ffffff; /* White background for the card */
+  padding: 20px 30px; /* Space inside the card */
+  border-radius: 10px; /* Rounded corners for the card */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for lifted effect */
+  max-width: 500px; /* Maximum width of the card */
+  width: 90%; /* Responsive width for smaller screens */
+  box-sizing: border-box; /* Ensure padding is included in width calculations */
+  text-align: center; /* Center the content within the card */
+}
+
+/* Display the first section by default */
+#accountTypeSection {
+  display: flex;
+  flex-direction: column; /* Ensure child elements stack vertically */
+  justify-content: center; /* Align form elements within the card */
+  align-items: center; /* Align elements horizontally */
+}
+
+/* Title styling */
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #333; /* Dark text for better readability */
+  margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 20px;
+  width: 100%; /* Ensure form fields occupy full width */
+}
+
+/* Label styling */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555; /* Medium gray for subtle contrast */
+}
+
+/* Input and select elements styling */
+input[type="text"],
+textarea,
+select {
+  width: 100%; /* Full width of the parent container */
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f9f9f9;
+}
+
+/* Checkbox labels */
+#genreList label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Button styling */
+button {
+  background-color: #007bff; /* Primary blue */
+  color: #fff; /* White text */
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+

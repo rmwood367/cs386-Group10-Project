@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prefrences</title>
+  <!-- include external files -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script> 
+  <body class=""prefrences-body>
+    <h1>Welcome! Please Set Your Preferences</h1>
+
+    <!-- account Type Section -->
+    <div id="accountTypeSection">
+        <form id="accountTypeForm">
+            <div class="form-group">
+                <label for="accountType">Account Type:</label>
+                <select id="accountType" name="accountType" required>
+                    <option value="">-- Select Account Type --</option>
+                    <option value="user">User</option>
+                    <option value="publisher">Publisher</option>
+                    <option value="admin">Administrator</option>
+                </select>
+            </div>
+            <div class="form-group admin-pin-container" id="adminPinContainer" style="display: none;">
+                <label for="adminPin">Admin PIN:</label>
+                <input type="text" id="adminPin" name="adminPin">
+                <p style="font-size: small; color: gray;">(Pre-set PIN: 1234)</p>
+            </div>
+            
+            <button type="submit">Next</button>
+        </form>
+    </div>
+
+    <!-- genres Section -->
+    <div id="genresSection" style="display: none;">
+        <form id="genresForm">
+            <div class="form-group">
+                <label>Favorite Genres (Select all that apply):</label>
+                <div id="genreList">
+                    <label><input type="checkbox" name="favoriteGenres[]" value="1"> Action</label><br>
+                    <label><input type="checkbox" name="favoriteGenres[]" value="2"> Comedy</label><br>
+                    <label><input type="checkbox" name="favoriteGenres[]" value="3"> Drama</label><br>
+                    <label><input type="checkbox" name="favoriteGenres[]" value="4"> Science Fiction</label><br>
+                    <label><input type="checkbox" name="favoriteGenres[]" value="5"> Horror</label><br>
+                    <label><input type="checkbox" name="favoriteGenres[]" value="6"> Romance</label><br>
+                    <label><input type="checkbox" name="favoriteGenres[]" value="7"> Thriller</label><br>
+                    <label><input type="checkbox" name="favoriteGenres[]" value="8"> Documentary</label><br>
+                    <label><input type="checkbox" name="favoriteGenres[]" value="9"> Animation</label><br>
+                    <label><input type="checkbox" name="favoriteGenres[]" value="10"> Indie</label><br>
+                </div>
+            </div>
+            <button type="submit">Next</button>
+        </form>
+    </div>
+
+    <!-- bio and profile Picture Section -->
+    <div id="bioSection" style="display: none;">
+        <form id="bioForm">
+            <div class="form-group">
+                <label for="bio">Bio (Optional):</label>
+                <textarea id="bio" name="bio" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="profilePictureURL">Profile Picture URL (Optional):</label>
+                <input type="text" id="profilePictureURL" name="profilePictureURL" placeholder="Enter a URL for your profile picture">
+            </div>
+            <button type="submit">Submit Preferences</button>
+        </form>
+    </div>
+</body>
+</html>
