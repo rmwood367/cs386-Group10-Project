@@ -16,7 +16,8 @@ This website focuses on community engagement and this is shown through the revie
 ### Class Diagrams:
 ![ClassDiagram5 drawio (2)](https://github.com/user-attachments/assets/996d52e5-2425-49e7-94a7-16bd96a11bb1)
 
-### Sequence Diagrams: 
+### Sequence Diagrams: ![User Sequence Diagram](https://github.com/user-attachments/assets/775fb944-96f9-4b12-9543-147e5740ee30)
+
 
 ### Design Patterns: 
 Structural:
