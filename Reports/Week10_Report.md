@@ -24,7 +24,11 @@
     - GitHub Summary:
 
 * Brian Dorame
-    - GitHub Summary:
+    - Added in Delvierable 5 Class Diagram
+    - Added in UserPrefrences page for updating and saving userprofile details
+    - impplemnt server enpoind code in back so userProfile is updated in dataBase
+   
+    - GitHub Summary: 3 commits, 1 pull
 
 * Alyssa Sombrero
     - GitHub Summary:
@@ -54,7 +58,9 @@
     -
 
 * Brian Dorame
-    -
+    - work on polishing desgin
+    - work on fetching user data to displayed on profile page
+    - work on movie database
 
 * Alyssa Sombrero
     -
