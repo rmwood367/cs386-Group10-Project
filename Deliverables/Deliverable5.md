@@ -26,3 +26,12 @@ Structural:
 ![CS386DesignPattern](https://github.com/user-attachments/assets/7a2310c3-16be-4e98-ac3f-6724306d3d91)
 
 ### Design Principles: 
+
+**Design Principle #1:**
+
+Looking at the movieReviews.html file you can see the class definitions below. These classes demonstrate SRP because each has a single, well-defined responsibility - the Movie class manages movie data and review collections, while the Review class only represents individual review data.
+
+<img width="855" alt="movie-review-classes" src="https://github.com/user-attachments/assets/f174ec89-649e-4aa2-bb40-97fb56331fab" />
+
+
+
