@@ -16,6 +16,9 @@
     - Implemented review page
     
 * Latisha Talyumptewa
+    - Implemented movie description page to display movie data
+    - Added in a UML class diagram in Deliverable 5
+    - Contributed to the design principle in Deliverable 5
     - GitHub Summary:
 
 * Blase Gornick
@@ -52,7 +55,8 @@
     - Still need to make our own API for our website needs
 
 * Latisha Talayumptewa
-    -
+    - Continue to work on polishing the website
+    - Work on the movie database
 
 * Blase Gornick
     -
