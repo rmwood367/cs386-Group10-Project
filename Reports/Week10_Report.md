@@ -13,6 +13,7 @@
     - GitHub Summary:
     - Worked on Review Page Implementation with Latisha's Help
     - Sent Deliverable 5 for review
+    - Implemented review page
     
 * Latisha Talyumptewa
     - GitHub Summary:
@@ -46,7 +47,9 @@
 
 ## Next Steps:
 * Ryan Wood:
-    -
+    - Work on polishing the website as well
+    - Plan next meeting
+    - Still need to make our own API for our website needs
 
 * Latisha Talayumptewa
     -
