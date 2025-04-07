@@ -25,7 +25,9 @@ The majority of the people who use our service will be movie enthusiasts and mov
 Structural:
 ![CS386DesignPattern](https://github.com/user-attachments/assets/7a2310c3-16be-4e98-ac3f-6724306d3d91)
 
+
 Creational:
+
 ![DesignPattern](https://github.com/user-attachments/assets/9b776fe5-653a-4f5b-b8af-d5aa4f5bba45)
 
 ### Design Principles: 
@@ -37,4 +39,10 @@ Looking at the movieReviews.html file you can see the class definitions below. T
 <img width="855" alt="movie-review-classes" src="https://github.com/user-attachments/assets/f174ec89-649e-4aa2-bb40-97fb56331fab" />
 
 
+
+**Design Principle #2:**
+
+The Open-Closed Principle can be observed in the 'movieDescription.html' in which the system can be extended to add in new functionality rather than changing the existing code. An example is the MovieFactory implementation where the design allows new factories to be integrated from other data sources. If the current data source is to be changed, a new factory can be created without changing the Movie class or existing factory code.
+
+![DesignPrinciple](https://github.com/user-attachments/assets/93eb5b57-f12c-4484-8c1d-9a248078d3f7)
 
