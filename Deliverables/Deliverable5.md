@@ -12,6 +12,11 @@ This website focuses on community engagement and this is shown through the revie
 
 
 ### Architecure: 
+![ArchitechtureDiagram_drawio](https://github.com/CocoCat0/hello-world/blob/main/UMLPackageDiagram.drawio.png?raw=true)
+
+<!-- why you designed it that way -->
+
+The following architecture presented above is presented as is to display the relationship between the four main packages (Movies, Users, Admin, Publisher). The diagram demonstrated certain classes / subsystems that depend on each other's functionalities. The Admin class will manage Users class, Publishers class, and Movies class. There are subsystems that will be accessed / dependent on other parts of the classes. In users class, the user data, user account system is managed by the account management system under admin. In publisher's class, there is a feedback system that accesses the user's data, which is their comments and reviews. In movies class, the Recommendation Algorithm system needs the user movie list system to be imported into it's functionalities in order to commit its intended process. As seen in the exampled relationship, it proves to show how the UML Package diagram aims to display the dependencies of each package and its contents in it.
 
 ### Class Diagrams:
 ![ClassDiagram5 drawio (2)](https://github.com/user-attachments/assets/996d52e5-2425-49e7-94a7-16bd96a11bb1)
