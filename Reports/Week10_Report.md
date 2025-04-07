@@ -19,7 +19,10 @@
     - GitHub Summary:
 
 * Blase Gornick
-    - GitHub Summary:
+    - GitHub Summary: 2 commits, 2 pull
+    - Updated code
+    - Reviewed code
+    - Sequence diagrams
 
 * Jermiah Lopez
     - GitHub Summary:
@@ -55,7 +58,8 @@
     -
 
 * Blase Gornick
-    -
+  - Work on data management to store users
+  - Discuss universal formatting options
 
 * Jermiah Lopez
     -
