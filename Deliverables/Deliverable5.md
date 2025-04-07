@@ -25,6 +25,9 @@ The majority of the people who use our service will be movie enthusiasts and mov
 Structural:
 ![CS386DesignPattern](https://github.com/user-attachments/assets/7a2310c3-16be-4e98-ac3f-6724306d3d91)
 
+Creational:
+![DesignPattern](https://github.com/user-attachments/assets/9b776fe5-653a-4f5b-b8af-d5aa4f5bba45)
+
 ### Design Principles: 
 
 **Design Principle #1:**
