@@ -20,11 +20,14 @@
 * Blase Gornick
     - GitHub Summary:
 
-* Jermiah Lopez
-    - GitHub Summary:
+* Jeremiah Lopez
+    - GitHub Summary: 2 Pull Requests | 2 Commits
+    - Added Deliverable 5 Description
+    - Added One Design Patterns Diagram for Deliverable 5
+    - Coded Profile Page w/ edit button
 
 * Brian Dorame
-    - Added in Delvierable 5 Class Diagram
+    - Added in Deliverable 5 Class Diagram
     - Added in UserPrefrences page for updating and saving userprofile details
     - impplemnt server enpoind code in back so userProfile is updated in dataBase
    
@@ -54,8 +57,10 @@
 * Blase Gornick
     -
 
-* Jermiah Lopez
-    -
+* Jeremiah Lopez
+    - Work on user roles for website
+    - Polish the look of website
+    - Work on next deliverable
 
 * Brian Dorame
     - work on polishing desgin
