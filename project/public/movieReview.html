@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Reviews</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Additional styles specific to the reviews page */
+    .reviews-container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    .review {
+      border-bottom: 1px solid #eee;
+      padding: 15px 0;
+    }
+    
+    .review-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    
+    .review-author {
+      font-weight: bold;
+    }
+    
+    .review-date {
+      color: #777;
+      font-size: 0.9em;
+    }
+    
+    .review-rating {
+      color: #cb510f;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .review-content {
+      line-height: 1.5;
+    }
+    
+    .add-review-form {
+      margin-top: 30px;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 8px;
+    }
+    
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    .form-group input, 
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-family: inherit;
+    }
+    
+    .form-group textarea {
+      height: 120px;
+      resize: vertical;
+    }
+    
+    .submit-btn {
+      background: #cb510f;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    
+    .submit-btn:hover {
+      background: #a84411;
+    }
+    
+    .back-to-movie {
+      display: inline-block;
+      margin-top: 20px;
+      color: #cb510f;
+      text-decoration: none;
+    }
+    
+    .back-to-movie:hover {
+      text-decoration: underline;
+    }
+    
+    .star-rating {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+    }
+    
+    .star-rating input {
+      display: none;
+    }
+    
+    .star-rating label {
+      cursor: pointer;
+      width: 25px;
+      height: 25px;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      transition: .3s;
+      color: #ddd;
+    }
+    
+    .star-rating input:checked ~ label,
+    .star-rating label:hover,
+    .star-rating label:hover ~ label {
+      color: #cb510f;
+      filter: invert(40%) sepia(68%) saturate(1371%) hue-rotate(353deg) brightness(91%) contrast(84%);
+    }
+    
+    .no-reviews-message {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <!--navigation bar-->
+  <header class="main-header">
+    <div class="logo">Film Haven</div>
+      <!--navigation links-->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="#">Film of the Week</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><input type="search" id="search" name="search" placeholder="search" required></li>
+        </ul>
+      </nav>
+  </header>
+  
+  <main>
+    <div class="reviews-container">
+      <header class="movie-header">
+        <h1 id="movie-title"></h1>
+        <div id="movie-brief">
+          <span id="release-year"></span> • Directed by <span id="movie-director"></span>
+        </div>
+      </header>
+      
+      <section>
+        <h2>Reviews <span id="review-count"></span></h2>
+        <div id="reviews-list">
+          <!-- Reviews will be dynamically inserted here -->
+          <div class="no-reviews-message" id="no-reviews-message">
+            Be the first to review this movie!
+          </div>
+        </div>
+      </section>
+      
+      <section class="add-review-form">
+        <h2>Add Your Review</h2>
+        <form id="review-form">
+          <div class="form-group">
+            <label for="reviewer-name">Your Name</label>
+            <input type="text" id="reviewer-name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="review-rating">Rating</label>
+            <div class="star-rating">
+              <input type="radio" id="star5" name="rating" value="5">
+              <label for="star5" title="5 stars"></label>
+              <input type="radio" id="star4" name="rating" value="4">
+              <label for="star4" title="4 stars"></label>
+              <input type="radio" id="star3" name="rating" value="3" checked>
+              <label for="star3" title="3 stars"></label>
+              <input type="radio" id="star2" name="rating" value="2">
+              <label for="star2" title="2 stars"></label>
+              <input type="radio" id="star1" name="rating" value="1">
+              <label for="star1" title="1 star"></label>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="review-text">Your Review</label>
+            <textarea id="review-text" required></textarea>
+          </div>
+          
+          <button type="submit" class="submit-btn">Post Review</button>
+        </form>
+      </section>
+      
+      <a href="#" id="back-to-movie" class="back-to-movie">← Back to Movie Details</a>
+    </div>
+  </main>
+  
+  <!--footer-->
+  <footer>
+    <p>© 2025 Film Haven</p>
+  </footer>
+  
+  <script>
+    // Movie class with reviews
+    class Movie {
+      constructor(id, title, released, director) {
+        this.id = id;
+        this.title = title;
+        this.released = released;
+        this.director = director;
+        this.reviews = [];
+      }
+      
+      addReview(review) {
+        this.reviews.push(review);
+        this.saveReviews();
+        return this.reviews;
+      }
+      
+      getReviews() {
+        this.loadReviews();
+        return this.reviews;
+      }
+      
+      saveReviews() {
+        localStorage.setItem(`reviews_${this.id}`, JSON.stringify(this.reviews));
+      }
+      
+      loadReviews() {
+        const savedReviews = localStorage.getItem(`reviews_${this.id}`);
+        if (savedReviews) {
+          this.reviews = JSON.parse(savedReviews);
+        }
+      }
+    }
+    
+    // Review class
+    class Review {
+      constructor(author, rating, content) {
+        this.author = author;
+        this.rating = rating;
+        this.content = content;
+        this.date = new Date();
+      }
+    }
+    
+    // retrieve a query parameter from the URL
+    function getQueryParam(param) {
+      return new URLSearchParams(window.location.search).get(param);
+    }
+    
+    // Format the date to a readable string
+    function formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      return new Date(date).toLocaleDateString(undefined, options);
+    }
+    
+    // Render stars based on rating
+    function renderStars(rating) {
+      const fullStar = '★';
+      const emptyStar = '☆';
+      const stars = fullStar.repeat(rating) + emptyStar.repeat(5 - rating);
+      return stars;
+    }
+    
+    // Create a review element
+    function createReviewElement(review) {
+      const reviewEl = document.createElement('div');
+      reviewEl.className = 'review';
+      
+      reviewEl.innerHTML = `
+        <div class="review-header">
+          <span class="review-author">${review.author}</span>
+          <span class="review-date">${formatDate(review.date)}</span>
+        </div>
+        <div class="review-rating">${renderStars(review.rating)} ${review.rating}/5</div>
+        <div class="review-content">${review.content}</div>
+      `;
+      
+      return reviewEl;
+    }
+    
+    // Display all reviews for a movie
+    function displayReviews(movie) {
+      const reviewsList = document.getElementById('reviews-list');
+      const noReviewsMessage = document.getElementById('no-reviews-message');
+      const reviewCount = document.getElementById('review-count');
+      
+      // Clear existing reviews
+      reviewsList.innerHTML = '';
+      
+      // Get and display reviews
+      const reviews = movie.getReviews();
+      
+      if (reviews.length === 0) {
+        reviewsList.appendChild(noReviewsMessage);
+        reviewCount.textContent = '(0)';
+      } else {
+        noReviewsMessage.remove();
+        reviews.forEach(review => {
+          reviewsList.appendChild(createReviewElement(review));
+        });
+        reviewCount.textContent = `(${reviews.length})`;
+      }
+    }
+    
+    // main function to load movie data and set up the page
+    async function loadMovieData() {
+      const movieId = getQueryParam('id');
+      
+      if (!movieId) {
+        document.querySelector('.reviews-container').innerHTML = '<p>Error: No movie ID provided.</p>';
+        return;
+      }
+      
+      // Set the back link
+      document.getElementById('back-to-movie').href = `movieDescription.html?id=${movieId}`;
+      
+      const apiKey = '3b476825';
+      const baseUrl = 'https://www.omdbapi.com/';
+      const url = `${baseUrl}?apikey=${apiKey}&i=${movieId}&plot=short&r=json`;
+      
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+        
+        if (data.Response === "False") {
+          document.querySelector('.reviews-container').innerHTML = `<p>${data.Error}</p>`;
+          return;
+        }
+        
+        // Create movie object
+        const movie = new Movie(
+          movieId,
+          data.Title,
+          data.Year,
+          data.Director
+        );
+        
+        // Update the UI with movie info
+        document.getElementById('movie-title').textContent = movie.title;
+        document.getElementById('release-year').textContent = movie.released;
+        document.getElementById('movie-director').textContent = movie.director;
+        
+        // Display reviews
+        displayReviews(movie);
+        
+        // Set up the review form
+        const reviewForm = document.getElementById('review-form');
+        reviewForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          
+          const authorName = document.getElementById('reviewer-name').value;
+          const reviewRating = parseInt(document.querySelector('input[name="rating"]:checked').value);
+          const reviewText = document.getElementById('review-text').value;
+          
+          const newReview = new Review(authorName, reviewRating, reviewText);
+          movie.addReview(newReview);
+          
+          // Update the displayed reviews
+          displayReviews(movie);
+          
+          // Reset the form
+          reviewForm.reset();
+          document.getElementById('star3').checked = true;
+        });
+        
+      } catch (error) {
+        console.error('Error fetching movie data:', error);
+        document.querySelector('.reviews-container').innerHTML = '<p>Error loading movie data. Please try again later.</p>';
+      }
+    }
+    
+    document.addEventListener('DOMContentLoaded', loadMovieData);
+  </script>
+</body>
+</html>
