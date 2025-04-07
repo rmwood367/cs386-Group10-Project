@@ -1,0 +1,124 @@
+<html>
+    <body>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+
+        <!-- nav bar hader-->
+      <header class="main-header">
+        <div class="logo">Film Haven</div>
+        <!--navigation links-->
+        <nav>
+          <ul class="nav-links">
+            <li><a href="displaypage.html">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Film of the Week</li></a>
+            <li><a href="profile.html">Profile</a></li>
+            <li><input type="search" id="search" name="search" placeholder="search" required></li>
+          </ul>
+        </nav>
+      </header>
+
+ <!-- Will probably change this when trying to differentiate between different user roles such as admin/publisher/regular -->
+      <div class="profile-container">
+        <div class="profile-header">
+          <div class="profile-pic-container" id="profilePicContainer">
+            <img src="images/profilepictemplate.jpg" alt="Profile Picture" class="profile-pic" id="profilePic">
+          </div>
+          <div class="username-container" id="usernameContainer">
+            <h1 id="username">
+                <!-- Badges can be based on roles -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-diamond" viewBox="0 0 16 16">
+                <path d="M8.384 1.226a.463.463 0 0 0-.768 0l-4.56 6.468a.54.54 0 0 0 0 .612l4.56 6.469a.463.463 0 0 0 .768 0l4.56-6.469a.54.54 0 0 0 0-.612zM6.848.613a1.39 1.39 0 0 1 2.304 0l4.56 6.468a1.61 1.61 0 0 1 0 1.838l-4.56 6.468a1.39 1.39 0 0 1-2.304 0L2.288 8.92a1.61 1.61 0 0 1 0-1.838z"/>
+              </svg>
+              <span id="usernameText">Template Username</span>
+            </h1>
+          </div>
+          <div class="stats">
+            <div class="stat-item" id="moviesWatched">
+              <div class="stat-number">0</div>
+              <div class="stat-label">Movies Watched</div>
+            </div>
+            <div class="stat-item" id="reviewsMade">
+              <div class="stat-number">0</div>
+              <div class="stat-label">Reviews Made</div>
+            </div>
+            <div class="stat-item" id="listsCreated">
+              <div class="stat-number">0</div>
+              <div class="stat-label">Lists Created</div>
+            </div>
+            <button class="profile-edit-btn" onclick="openEditProfileModal()">
+              <i class="fas fa-edit"></i> Edit Profile
+            </button>
+          </div>
+        </div>
+        
+        <!-- Edit Profile -->
+        <div id="editProfileModal" class="modal">
+          <div class="modal-content">
+            <span class="close-modal" onclick="closeEditProfileModal()">&times;</span>
+            <h2>Edit Profile</h2>
+            <form id="editProfileForm">
+              <label for="editUsername">Username:</label>
+              <input type="text" id="editUsername">
+              
+              <label for="editProfilePic">Profile Picture URL:</label>
+              <input type="text" id="editProfilePic">
+              
+              <label for="editBio">Bio:</label>
+              <textarea id="editBio"></textarea>
+              
+              <label for="editTwitter">Twitter:</label>
+              <input type="text" id="editTwitter">
+              
+              <label for="editLetterboxd">Letterboxd:</label>
+              <input type="text" id="editLetterboxd">
+              
+              <label for="editInstagram">Instagram:</label>
+              <input type="text" id="editInstagram">
+              
+              <label for="editMoviesWatched">Movies Watched:</label>
+              <input type="number" id="editMoviesWatched">
+              
+              <label for="editReviewsMade">Reviews Made:</label>
+              <input type="number" id="editReviewsMade">
+              
+              <label for="editListsCreated">Lists Created:</label>
+              <input type="number" id="editListsCreated">
+              
+              <button type="button" onclick="saveProfileChanges()">Save Changes</button>
+            </form>
+          </div>
+        </div>
+      
+        <div class="content-grid">
+          <aside class="sidebar">
+            <div class="bio">
+              <h3>About Me</h3>
+              <p id="userBio">Talk about yourself here...</p>
+            </div>
+            <div class="social-links">
+              <a href="#" id="twitterLink"><i class="fab fa-twitter"></i></a>
+              <a href="#" id="letterboxdLink"><i class="fab fa-letterboxd"></i></a>
+              <a href="#" id="instagramLink"><i class="fab fa-instagram"></i></a>
+            </div>
+          </aside>
+          
+          <main class="main-content">
+            <div class="activity-card">
+                    <!-- Add recent activities here -->
+              <h2>Recent Activity</h2>
+            </div>
+            <div class="activity-card">
+                <!-- Add user created lists here -->
+              <h2>Top Lists</h2>
+            </div>
+          </main>
+        </div>
+      </div>
+      
+    
+      <footer>
+        <p>© 2025 Film Haven</p>
+      </footer>
+    </body>
+</html>

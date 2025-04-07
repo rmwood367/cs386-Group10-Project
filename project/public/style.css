@@ -295,6 +295,152 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
+/* Recommendations styling */
+
+/* Profile Page styling */
+
+
+.profile-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.profile-header {
+  background: #333;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+.profile-header h1 {
+  color: white;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.stat-number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sidebar {
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.bio {
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  color: #333;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.main-content {
+  display: grid;
+  gap: 20px;
+}
+
+.activity-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.profile-pic-container {
+  margin-bottom: 20px;
+}
+
+.profile-edit-btn {
+  background: #cb510f;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.profile-edit-btn:hover {
+  background: black;
+}
+
+/* Modal Styles -- for when editing profile */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.close-modal {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Profile Page styling */
+
+
+
 /* userPrefneces styling */
 
 

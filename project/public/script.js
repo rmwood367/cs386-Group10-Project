@@ -274,3 +274,42 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+// Profile editing section
+function openEditProfileModal() { // This function does not store the data in a database -- issue
+  const modal = document.getElementById('editProfileModal');
+  modal.style.display = 'block';
+  
+  // Populate form with current values
+  document.getElementById('editUsername').value = document.getElementById('usernameText').innerText;
+  document.getElementById('editProfilePic').value = document.getElementById('profilePic').src;
+  document.getElementById('editBio').value = document.getElementById('userBio').innerText;
+  document.getElementById('editTwitter').value = document.getElementById('twitterLink').href;
+  document.getElementById('editLetterboxd').value = document.getElementById('letterboxdLink').href;
+  document.getElementById('editInstagram').value = document.getElementById('instagramLink').href;
+  document.getElementById('editMoviesWatched').value = document.getElementById('moviesWatched').querySelector('.stat-number').innerText;
+  document.getElementById('editReviewsMade').value = document.getElementById('reviewsMade').querySelector('.stat-number').innerText;
+  document.getElementById('editListsCreated').value = document.getElementById('listsCreated').querySelector('.stat-number').innerText;
+}
+
+function closeEditProfileModal() {
+  document.getElementById('editProfileModal').style.display = 'none';
+}
+
+function saveProfileChanges() {
+  // Update profile elements
+  document.getElementById('usernameText').innerText = document.getElementById('editUsername').value;
+  document.getElementById('profilePic').src = document.getElementById('editProfilePic').value;
+  document.getElementById('userBio').innerText = document.getElementById('editBio').value;
+  
+  // Update social links
+  document.getElementById('twitterLink').href = document.getElementById('editTwitter').value;
+  document.getElementById('letterboxdLink').href = document.getElementById('editLetterboxd').value;
+  document.getElementById('instagramLink').href = document.getElementById('editInstagram').value;
+  
+  // Update stats
+  document.getElementById('moviesWatched').querySelector('.stat-number').innerText = document.getElementById('editMoviesWatched').value;
+  document.getElementById('reviewsMade').querySelector('.stat-number').innerText = document.getElementById('editReviewsMade').value;
+  document.getElementById('listsCreated').querySelector('.stat-number').innerText = document.getElementById('editListsCreated').value;
+  
+  closeEditProfileModal();
+}
