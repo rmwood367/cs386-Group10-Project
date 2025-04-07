@@ -38,7 +38,11 @@
     - GitHub Summary: 3 commits, 1 pull
 
 * Alyssa Sombrero
-    - GitHub Summary:
+    - Review the login page to check for any parts in need of styling
+    - Worked on Deliverable 5 Architecture:
+    - Created the diagram in draw.io
+    - Wrote the description
+    - GitHub Summary: 0 commits, 2 pull request
 
 ## Retrospective
 1. Appreciation: Brian Dorame creating a "sign up" document to organize the team's contribution for the upcoming Deliverable
@@ -66,7 +70,7 @@
   - Discuss universal formatting options
 
 * Jermiah Lopez
-    -
+  - 
 
 * Brian Dorame
     - work on polishing desgin
@@ -74,4 +78,7 @@
     - work on movie database
 
 * Alyssa Sombrero
-    -
+    - Create the upcoming Report
+    - Reflect on what could've been improved in Deliverable 5
+    - Implement the styling in the main program
+    - Find any improvments to be made in the main code.
