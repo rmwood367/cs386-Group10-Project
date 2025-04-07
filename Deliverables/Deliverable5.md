@@ -16,7 +16,9 @@ This website focuses on community engagement and this is shown through the revie
 ### Class Diagrams:
 ![ClassDiagram5 drawio (2)](https://github.com/user-attachments/assets/996d52e5-2425-49e7-94a7-16bd96a11bb1)
 
-### Sequence Diagrams: ![User Sequence Diagram](https://github.com/user-attachments/assets/775fb944-96f9-4b12-9543-147e5740ee30)
+### Sequence Diagrams: ![User Sequence Diagram](https://github.com/user-attachments/assets/bfe9306c-aa0c-457c-b358-b14c48ea8fb0)
+
+The majority of the people who use our service will be movie enthusiasts and movie watchers. Our primary use case is allowing a user/viewer to login, watch a movie, and leave feedback. This is how our service should work for somebody who already has an account. Feedback should be given to the publisher, and the user should have a success message, following a succesful review of a movie that has been succesfully displayed.
 
 
 ### Design Patterns: 
