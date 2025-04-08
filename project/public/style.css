@@ -4,8 +4,16 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    display: flex;
+    flex-direction: column; 
+  }
+
+  html, body {
+    height: 100%; 
+    margin: 0; 
   }
   
+ 
   header {
     background: #222;
     color: #cb510f;
@@ -15,6 +23,12 @@ body {
     align-items: center;
   }
   
+  main {
+    flex-grow: 1; /* Makes the main tag stretch */
+    display: flex; /* Optional, to style its children */
+    flex-direction: column; /* Ensures children stay in column layout */
+}
+
   .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -444,44 +458,39 @@ form input, form textarea {
 /* userPrefneces styling */
 
 
-/* Styling for Preferences Page */
-.preferences-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f9f9f9; /* Light gray background */
-  margin: 0;
-  display: flex; /* Use Flexbox for layout */
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
-  height: 100vh; /* Full viewport height */
-  overflow: hidden; /* Prevent scrolling */
-}
 
-/* Styling the card container */
-#accountTypeSection,
-#genresSection,
-#bioSection {
-  background-color: #ffffff; /* White background for the card */
-  padding: 20px 30px; /* Space inside the card */
-  border-radius: 10px; /* Rounded corners for the card */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for lifted effect */
-  max-width: 500px; /* Maximum width of the card */
-  width: 90%; /* Responsive width for smaller screens */
-  box-sizing: border-box; /* Ensure padding is included in width calculations */
-  text-align: center; /* Center the content within the card */
-}
 
-/* Display the first section by default */
-#accountTypeSection {
+
+/* Middle section adjusted */
+.middlePrefrences {
+  background-image: url(/project/public/images/signup_background.jpg);
+  background-size: cover;
+  background-position: center;
+  flex: 1; /* This allows it to grow and fill available space */
   display: flex;
-  flex-direction: column; /* Ensure child elements stack vertically */
-  justify-content: center; /* Align form elements within the card */
-  align-items: center; /* Align elements horizontally */
+  flex-direction: column;
+
+  /* General text and alignment */
+  color: #000000;
+  text-align: center;
+  padding: 100px 20px;
 }
+
+
+
+.prefrence-container{
+  width: 40%;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+}
+
 
 /* Title styling */
 h1 {
   text-align: center;
-  font-size: 24px;
+  font-size: px;
   color: #333; /* Dark text for better readability */
   margin-bottom: 20px;
 }
@@ -523,8 +532,8 @@ select {
 
 /* Button styling */
 button {
-  background-color: #007bff; /* Primary blue */
-  color: #fff; /* White text */
+  background-color: #cb510f; 
+  color: #fff; 
   padding: 12px 20px;
   border: none;
   border-radius: 5px;
@@ -535,18 +544,8 @@ button {
 
 /* Button hover effect */
 button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #ff0000; 
 }
 
-/* Responsive design for smaller screens */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 20px;
-  }
 
-  button {
-    font-size: 14px;
-    padding: 10px 15px;
-  }
-}
 

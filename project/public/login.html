@@ -5,29 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login | Film Haven</title>
   <!-- Include external files -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="signupstyles.css">
    
 </head>
 <body>
+  <header class="main-header">
+    <div class="logo">Film Haven</div>
+    <!--navigation links-->
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Discover</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
   <!-- Login Section -->
+  <main>
+    <section class="middle">
   <div class="login-container">
     <h2>Welcome Back to Film Haven</h2>
     <p>Log in to explore indie films.</p>
     <!-- provie method type and lavascript tags for handeling-->
-    <form class="login-form" method="POST" onsubmit="handleLogin(event)">      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <form class="login-form" method="POST" onsubmit="handleLogin(event)">      
+      <label for="emailSignup">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
       
       <label for="password">Password:</label>
       <input type="password" id="password" name="password" placeholder="Enter your password" required>
       
-      <button type="submit" class="login-button">Login</button>
+      <button type="submit" value ="submit" class="login-button">Login</button>
 
       <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
 
     </form>
   </div>
-
+</section>
+</main>
+  <footer>
+    <p>© 2025 Film Haven</p>
+</footer> 
   
 </body>
-<script src="script.js"></script>
+<link rel="stylesheet" href="signupstyles.css">
+<script src="script.js"></script> 
 
 </html>

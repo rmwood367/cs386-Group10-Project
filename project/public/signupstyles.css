@@ -1,20 +1,38 @@
 /*Styles*/
 body{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  display: flex;
+  flex-direction: column; 
 }
 
-/*header section*/
-header {
-    background: #222;
-    color: #cb510f;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 
+html, body {
+  height: 100%; 
+  margin: 0; 
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1; /* Makes the main tag stretch */
+  display: flex; /* Optional, to style its children */
+  flex-direction: column; /* Ensures children stay in column layout */
+}
+
+
+/*header section*/
+ 
+header {
+  background: #222;
+  color: #cb510f;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -45,11 +63,12 @@ header {
     background-size: cover; 
     background-position: center; 
     padding: 30px;
+    flex-grow: 1;
     
 }
 
 
-.signup-container{
+.signup-container, .login-container{
     width: 40%;
     margin: 40px auto;
     border-radius: 8px;
@@ -59,7 +78,7 @@ header {
 }
 
 
-.signup-form{
+.signup-form, .login-form{
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -85,27 +104,57 @@ label{
     margin-bottom: 5px;
 }
 
+/* Input Fields */
 input[type="text"],
-input[type="date"],
 input[type="email"],
-input[type="password"]{
-        padding: 5px;
-        margin-bottom: 10px;
+input[type="password"],
+input[type="date"],
+input[type="search"] {
+    width: 95%; /* Ensures full-width alignment inside parent container */
+    padding: 10px; /* Adds spacing for a comfortable feel */
+    margin-bottom: 15px; /* Space between fields */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    background-color: #f9f9f9; /* Subtle background color */
+    font-size: 16px; /* Text size for readability */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }
 
-input[type="submit"]{
-  height: 30px;
-  background-color: #cb510f;
-  color: white;
+/* Input Fields Hover Focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="search"]:focus {
+    border-color: #ff0000; /* Brighter border for focus */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on focus */
+    outline: none; /* Removes default outline */
+}
+
+/* Placeholder Text */
+input::placeholder {
+    font-style: italic; /* Makes placeholder text stand out */
+    color: #888; /* Gray tone for subtlety */
+}
+
+
+
+
+button {
+  background-color: #cb510f; 
+  color: #fff; 
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
   cursor: pointer;
-  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
-
-input[type="submit"]:hover{
-    background-color:tomato;
+/* Button hover effect */
+button:hover {
+  background-color: #ff0000; 
 }
-
 
   /* Footer */
   footer {
