@@ -273,43 +273,73 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+ 
+
 
 // Profile editing section
-function openEditProfileModal() { // This function does not store the data in a database -- issue
-  const modal = document.getElementById('editProfileModal');
-  modal.style.display = 'block';
-  
-  // Populate form with current values
-  document.getElementById('editUsername').value = document.getElementById('usernameText').innerText;
-  document.getElementById('editProfilePic').value = document.getElementById('profilePic').src;
-  document.getElementById('editBio').value = document.getElementById('userBio').innerText;
-  document.getElementById('editTwitter').value = document.getElementById('twitterLink').href;
-  document.getElementById('editLetterboxd').value = document.getElementById('letterboxdLink').href;
-  document.getElementById('editInstagram').value = document.getElementById('instagramLink').href;
-  document.getElementById('editMoviesWatched').value = document.getElementById('moviesWatched').querySelector('.stat-number').innerText;
-  document.getElementById('editReviewsMade').value = document.getElementById('reviewsMade').querySelector('.stat-number').innerText;
-  document.getElementById('editListsCreated').value = document.getElementById('listsCreated').querySelector('.stat-number').innerText;
-}
 
-function closeEditProfileModal() {
-  document.getElementById('editProfileModal').style.display = 'none';
-}
+document.getElementById("editProfileButton").addEventListener("click", function() {
+  window.location.href = "userPrefrence.html";
+});
 
-function saveProfileChanges() {
-  // Update profile elements
-  document.getElementById('usernameText').innerText = document.getElementById('editUsername').value;
-  document.getElementById('profilePic').src = document.getElementById('editProfilePic').value;
-  document.getElementById('userBio').innerText = document.getElementById('editBio').value;
-  
-  // Update social links
-  document.getElementById('twitterLink').href = document.getElementById('editTwitter').value;
-  document.getElementById('letterboxdLink').href = document.getElementById('editLetterboxd').value;
-  document.getElementById('instagramLink').href = document.getElementById('editInstagram').value;
-  
-  // Update stats
-  document.getElementById('moviesWatched').querySelector('.stat-number').innerText = document.getElementById('editMoviesWatched').value;
-  document.getElementById('reviewsMade').querySelector('.stat-number').innerText = document.getElementById('editReviewsMade').value;
-  document.getElementById('listsCreated').querySelector('.stat-number').innerText = document.getElementById('editListsCreated').value;
-  
-  closeEditProfileModal();
-}
+
+
+// display user bio and user profile pic
+
+document.addEventListener("DOMContentLoaded", () => {
+  const userId = localStorage.getItem('userId');
+  console.log('User ID from localStorage:', userId);
+
+  if (!userId) {
+      console.error('User ID not found in localStorage.');
+      return;
+  }
+
+  // Fetch user profile data (bio and profile picture)
+  fetch(`http://localhost:3000/get-profile?userId=${userId}`)
+    .then(response => {
+        console.log('API Response Status:', response.status); // Log status code
+        if (!response.ok) {
+            throw new Error('Failed to fetch user profile.');
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log('Fetched profile data:', data); // Log data for debugging
+        document.getElementById('userBio').textContent = data.bio;
+        document.getElementById('profilePicture').src = data.profilePictureURL;
+    })
+    .catch(error => {
+        console.error('Error fetching user profile:', error);
+    });
+
+// Fetch user name
+fetch(`http://localhost:3000/get-username?userId=${userId}`)
+  .then(response => {
+      console.log('API Response Status:', response.status); // Log status code
+      if (!response.ok) {
+          throw new Error('Failed to fetch user name.');
+      }
+      return response.json();
+  })
+  .then(data => {
+      console.log('Fetched user name:', data); // Debugging the response structure
+      if (data.name) {
+        document.getElementById('usernameText').textContent = data.name;
+    } else {
+        console.error('Name property not found in response:', data);
+        document.getElementById('usernameText').textContent = 'Guest'; // Fallback
+    }
+    
+  })
+  .catch(error => {
+      console.error('Error fetching user name:', error);
+  });
+});
+
+
+
+
+
+
+
