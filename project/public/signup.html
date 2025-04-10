@@ -4,21 +4,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign Up</title>
-        <link rel="stylesheet" href="signupstyles.css">
-        <script src="script.js"></script> 
+        
 
     </head>
     <body>
         <!-- nav bar hader-->
-  <header class="main-header">
+    <header class="main-header">
     <div class="logo">Film Haven</div>
     <!--navigation links-->
     <nav>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#">Discover</a></li>
         <li><a href="login.html">Login</a></li>
-        <li><input type="search" id="search" name="search" placeholder="search" required></li>
       </ul>
     </nav>
   </header>
@@ -51,7 +49,7 @@
                 <label for="passwordSignup">Password</label> 
                 <input type="password" id="passwordSignup" name="passwordSignup" placeholder="Create a password" required =" " oninvalid="this.setCustomValidity('Please enter valid password')">
                 <!-- sign up button-->
-                <input type = "submit" value = "Submit">
+                <button type="submit" value ="submit" class="login-button">Login</button>
 
                 <p>Already have an account? <a href="login.html">Log In</a></p>
 
@@ -68,4 +66,7 @@
     <!--JavaScript File-->
     <!--<script src="SignUpScript.js"></script>--> 
     </body>
+    <link rel="stylesheet" href="signupstyles.css">
+    <script src="script.js"></script> 
+
 </html>
