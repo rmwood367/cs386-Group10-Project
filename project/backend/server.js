@@ -231,6 +231,7 @@ app.post('/update-profile', async (req, res) => {
   }
 });
 
+
 // Display userProfile endpoint
 
 app.get('/get-profile', async (req, res) => {

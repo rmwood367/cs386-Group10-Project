@@ -189,9 +189,11 @@ document.addEventListener("DOMContentLoaded", () => {
         });
         // Save locally for future use
       preferences.accountType = accountType; 
-    });    
-    
+    });       
   }
+
+ 
+
 
     // Check if the genres form exists before attaching an event listener
   if (genresForm) {
@@ -237,6 +239,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+
+
+
   if (bioForm) {
     // Handle Bio and Profile submission
     bioForm.addEventListener("submit", (event) => {
@@ -272,11 +277,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
-
  
 
 
-// Profile editing section
+// Profile editing section button
 
 document.getElementById("editProfileButton").addEventListener("click", function() {
   window.location.href = "userPrefrence.html";
@@ -306,12 +310,25 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .then(data => {
         console.log('Fetched profile data:', data); // Log data for debugging
+
+        // Display current bio and profile picture
         document.getElementById('userBio').textContent = data.bio;
         document.getElementById('profilePicture').src = data.profilePictureURL;
+
+        // Populate the bio textarea and profile picture URL input with fetched data
+        const bioTextarea = document.getElementById('bio'); // Reference to bio textarea
+        const profilePictureInput = document.getElementById('profilePictureURL'); // Reference to profile picture input
+        if (bioTextarea) {
+            bioTextarea.value = data.bio; // Populate textarea with current bio
+        }
+        if (profilePictureInput) {
+            profilePictureInput.value = data.profilePictureURL; // Populate input with current profile picture URL
+        }
     })
     .catch(error => {
         console.error('Error fetching user profile:', error);
     });
+
 
 // Fetch user name
 fetch(`http://localhost:3000/get-username?userId=${userId}`)
