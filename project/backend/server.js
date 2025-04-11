@@ -232,6 +232,80 @@ app.post('/update-profile', async (req, res) => {
 });
 
 
+// Display userProfile endpoint
+
+app.get('/get-profile', async (req, res) => {
+  const userId = req.query.userId;
+  console.log('Fetching profile for userId:', userId); // Debug log
+
+  if (!userId) {
+      console.error('Missing userId in request');
+      return res.status(400).json({ error: 'User ID is required.' });
+  }
+
+  try {
+      const getProfileSql = `
+          SELECT bio, profile_picture_url
+          FROM UserProfiles
+          WHERE user_id = ?;
+      `;
+      console.log('Executing SQL query:', getProfileSql); // Debug SQL
+      const [results] = await db.promise().query(getProfileSql, [userId]);
+      console.log('Query results:', results); // Debug query results
+
+      if (results.length === 0) {
+          console.error(`No profile found for userId: ${userId}`);
+          return res.status(404).json({ error: 'User profile not found.' });
+      }
+
+      const userProfile = results[0];
+      res.status(200).json({
+          bio: userProfile.bio || "No bio provided.",
+          profilePictureURL: userProfile.profile_picture_url || "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+      });
+  } catch (err) {
+      console.error('Error fetching user profile:', err);
+      res.status(500).json({ error: 'An error occurred while fetching user profile.' });
+  }
+});
+
+
+// enpoint for geting users name
+app.get('/get-username', async (req, res) => {
+  const userId = req.query.userId;
+  console.log('Fetching username for userId:', userId); // Debug log
+
+  if (!userId) {
+    console.error('Missing userId in request');
+    return res.status(400).json({ error: 'User ID is required.' });
+  }
+
+  try {
+    const getUserNameSql = `
+    SELECT first_name
+    FROM users
+    WHERE id = ?;
+    `;
+    console.log('Executing SQL query:', getUserNameSql); // Debug SQL
+    const [results] = await db.promise().query(getUserNameSql, [userId]);
+    console.log('Query results:', results); // Debug query results
+
+    if (results.length === 0) {
+      console.error(`No user found for userId: ${userId}`);
+      return res.status(404).json({ error: 'User not found.' });
+    }
+
+    // Map the correct property
+    const userName = results[0]?.first_name || 'Guest';
+    res.status(200).json({ name: userName }); // Send as { name: 'brian' }
+  } catch (err) {
+    console.error('Error fetching user name:', err);
+    res.status(500).json({ error: 'An error occurred while fetching user name.' });
+  }
+});
+
+
+
 
 // Start the server (already present)
 app.listen(3000, () => {
