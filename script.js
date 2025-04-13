@@ -1,23 +1,32 @@
+//API routing for server side
+
+//importing modules (express for API routing)
 const express = require('express');
 const path = require('path');
 
 const app = express();
 const PORT = 3000;
 
-// Serve static files from the "project" directory
+//get the static files from "project" directory (index.html, login.html)
 app.use(express.static(path.join(__dirname, 'project')));
 
-// Route for index.html
+//route index.html
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'project', 'index.html'));
 });
 
-// Route for login.html
+//route for Discover page
+//route login.html
+app.get('/discover', (req, res) => {
+  res.sendFile(path.join(__dirname, 'project', 'discover.html'));
+});
+
+//route login.html
 app.get('/login', (req, res) => {
   res.sendFile(path.join(__dirname, 'project', 'login.html'));
 });
 
-// Start the server
+//initiate server
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
