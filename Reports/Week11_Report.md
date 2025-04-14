@@ -19,8 +19,11 @@
 * Blase Gornick
     - GitHub Summary:
 
-* Jermiah Lopez
-    - GitHub Summary:
+* Jeremiah Lopez
+    - Added a smaller filter bar
+    - Added a requirement to Deliverable 6
+    - Added introduction
+    - GitHub Summary: 3 Commits / 3 Pull Requests
 
 * Brian Dorame
     - GitHub Summary:
@@ -45,7 +48,7 @@
 * Blase Gornick
     -
 
-* Jermiah Lopez
+* Jeremiah Lopez
     -
 
 * Brian Dorame
