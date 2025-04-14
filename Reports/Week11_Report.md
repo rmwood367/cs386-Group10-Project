@@ -49,7 +49,9 @@
     -
 
 * Jeremiah Lopez
-    -
+    - Further work on search bar features
+    - Work on next report
+    - Style up sections previously worked on
 
 * Brian Dorame
     -
