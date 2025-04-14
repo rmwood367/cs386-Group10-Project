@@ -42,7 +42,7 @@ follow adequate worflow
 -->
 ### Requirements:
 
-* Requirement: As a user I want to have my profile updated with my custimizition and saved on my account.
+* Requirement: As a user I want to have my profile updated with my customization and saved on my account.
 * Issue Link: #99 [issue #99](https://github.com/rmwood367/cs386-Group10-Project/issues/99)
 * Pull Request Link: [pull request #97](https://github.com/rmwood367/cs386-Group10-Project/pull/97)
 * Implemented By: Brian Dorame
@@ -56,13 +56,16 @@ follow adequate worflow
 * Approved By: Ashley Sombrero  
 * Print Screen: ![image](https://github.com/user-attachments/assets/768e57c9-89c2-4854-8be6-77c3fa9c08f7)
 
-* Requirement:
-* Issue Link:
-* Pull Request Link:
-* Implemented By:
-* Approved By:
-* Print Screen:
-<br>
+* Requirement: as a user I want to be able to review the movies I watch and engage with other reviews
+* Issue Link: [issue #106](https://github.com/rmwood367/cs386-Group10-Project/issues/106)
+* Pull Request Link: 
+* Implemented By: Ryan Wood
+* Approved By: Latisha Talayumptewa
+* Print Screen: 
+<img width="737" alt="Screenshot 2025-04-13 at 7 31 06 PM" src="https://github.com/user-attachments/assets/ef5f9cab-73db-4d44-afc5-999ccd0d839e" />
+
+<br><img width="739" alt="Screenshot 2025-04-13 at 7 30 58 PM" src="https://github.com/user-attachments/assets/bb11c974-eebe-4a49-a8d9-75f5b4f164b0" />
+
 
 * Requirement:
 * Issue Link:
