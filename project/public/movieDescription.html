@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Description</title>
+  <link rel="stylesheet" href="movieDescriptionStyles.css">
+</head>
+<body>
+   <!--navigation bar-->
+  <header class="main-header">
+    <div class="logo">Film Haven</div>
+      <!--navigation links-->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Discover</a></li>
+          <li><a href="#">Film of the Week</li></a>
+          <li><a href="#">Profile</a></li>
+          <li><input type="search" id="search" name="search" placeholder="search" required></li>
+        </ul>
+      </nav>
+  </header>
+<main>
+  <div id="movie-container">
+    <header class="movie-header">
+      <h1 id="movie-title">Movie Title</h1>
+      <h2 id="movie-runtime"></h2>
+    </header>
+
+    <!--movie data section-->
+    <section class="movie-details">
+      <img src="" alt="Movie Poster" id="movie-poster" class="movie-poster">
+      <div class="movie-info">
+        <p id="movie-description"></p>
+        <ul id="movie-meta" class="movie-meta">
+          <li><strong>Director:</strong> <span id="movie-director"></span></li>
+          <li><strong>Genre:</strong> <span id="movie-genre"></span></li>
+          <li><strong>Release Date:</strong> <span id="release-date"></span></li>
+          <li><strong>IMDB Rating:</strong> <span id="movie-rating"></span></li>
+        </ul>
+        <a href="./movie-reviews-html.html" id='movie-review'>Leave A Review!</a>
+      </div>
+    </section>
+    <a href="./movieDisplay.html" id='movie-homepage'>← Return to Homepage</a>
+
+  </div>
+  </main>
+
+  <!--footer-->
+  <footer>
+  <p>© 2025 Film Haven</p>
+  </footer>
+  <script>
+    // retrieve a query parameter from the URL
+    function getQueryParam(param) {
+      return new URLSearchParams(window.location.search).get(param);
+    }
+
+    // Movie class
+    class Movie {
+      constructor(title, released, plot, director, genre, poster, imdbRating, runtime) {
+        this.title = title;
+        this.released = released;
+        this.plot = plot;
+        this.director = director;
+        this.genre = genre;
+        this.poster = poster;
+        this.imdbRating = imdbRating;
+        this.runtime = runtime;
+      }
+    }
+
+    // OMDbMovieFactory creates a Movie object from API data
+    class OMDbMovieFactory {
+      static createMovie(data) {
+        console.log("Creating Movie object from data:", data);
+        return new Movie(
+          data.Title,
+          data.Released,
+          data.Plot,
+          data.Director,
+          data.Genre,
+          data.Poster,
+          data.imdbRating,
+          data.Runtime
+        );
+      }
+    }
+
+    // loadMovieData fetches data from the OMDb API, creates a Movie using the factory, and updates the DOM
+    async function loadMovieData() {
+      const movieId = getQueryParam('id');
+      const apiKey = '3b476825';
+      const baseUrl = 'https://www.omdbapi.com/';
+      const url = `${baseUrl}?apikey=${apiKey}&i=${movieId}&plot=full&r=json&type=movie`;
+      document.getElementById('movie-review').href = `movie-reviews-html.html?id=${movieId}`;
+
+      try {
+        const res = await fetch(url);
+        const data = await res.json();
+        
+        if (data.Response === "False") {
+          document.getElementById('movie-container').innerHTML = `<p>${data.Error}</p>`;
+          return;
+        }
+        
+        // create a movie object
+        const movie = OMDbMovieFactory.createMovie(data);
+        
+        // update the DOM elements using the movie object
+        document.getElementById('movie-description').textContent = movie.plot;
+        document.getElementById('movie-title').textContent = movie.title;
+        document.getElementById('movie-genre').textContent = movie.genre;
+        document.getElementById('release-date').textContent = movie.released;
+        document.getElementById('movie-director').textContent = movie.director;
+        document.getElementById('movie-poster').src = movie.poster;
+        document.getElementById('movie-poster').alt = `${movie.title} Poster`;
+        document.getElementById('movie-rating').textContent = movie.imdbRating;
+        document.getElementById('movie-runtime').textContent = movie.runtime;
+      } catch (error) {
+        console.error('Error fetching movie data:', error);
+        document.getElementById('movie-container').innerHTML = `<p>Error in loading the movie details.</p>`;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadMovieData);
+  </script>
+</body>
+</html>
