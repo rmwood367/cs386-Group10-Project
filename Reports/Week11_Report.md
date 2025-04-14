@@ -36,7 +36,10 @@
     - GitHub Summary: 3 commits, 2 pull requests
 
 * Alyssa Sombrero
-    - GitHub Summary:
+- Created Deliverable 6 template
+- Added in a Requirement and wrote the reflection
+- Created the Discover Webpage
+    - GitHub Summary: 2 commits : 3 pull requests
 
 ## Retrospective
 1. Appreciation: Blase went through all code files to make sure they followed all project guidelines
@@ -69,4 +72,7 @@
     - adding more tables to data base for user data such as reviews 
 
 * Alyssa Sombrero
-    -
+    - Improve the Discover page and align it with the style as the other pages
+    - Improve the overall code if theres in need of debugging
+    - Be more familiar how to do a Pull Request through Visual Studio Code
+    - Create Document for deliverable 7
