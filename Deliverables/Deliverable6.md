@@ -106,6 +106,19 @@ Criteria
 #### Test Framework: jest for JavaScript testing
 #### Link to automated unit tests:  [__tests__](https://github.com/rmwood367/cs386-Group10-Project/tree/dev6_test/project/__tests__)
 #### Link to class bieng tested & test itself:
+### Example Test Case
+
+This repository includes tests to ensure robust functionality. Below is an example:
+
+#### Class Being Tested
+The `UserController` class, responsible for user authentication logic, can be found [here](https://github.com/rmwood367/cs386-Group10-Project/blob/main/project/__tests__/user_auth.js).
+
+#### Test File
+The corresponding test file for the `login` method is located  [here](https://github.com/rmwood367/cs386-Group10-Project/blob/main/project/__tests__/user_auth.js).
+
+#### Example Test Output
+Below is an example of the output from running the test suite:
+
 #### Screenshot of Automated Tests Execution:
 ![image](https://github.com/user-attachments/assets/2232bf5d-6943-4db8-aa48-0b36eedc0c08)
 
