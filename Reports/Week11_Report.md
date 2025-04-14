@@ -14,7 +14,9 @@
     - GitHub Summary:
 
 * Latisha Talyumptewa
-    - GitHub Summary:
+    - Implemented description page for movie details
+    - Worked on the linkage between description page and review page
+    - GitHub Summary: 2 commits/ 2 pull requests
 
 * Blase Gornick
     - GitHub Summary:
@@ -47,7 +49,8 @@
     -
 
 * Latisha Talayumptewa
-    -
+    - Work on futher features of webpage
+    - Work on next report
 
 * Blase Gornick
     -
