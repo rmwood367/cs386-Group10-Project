@@ -45,7 +45,8 @@ follow adequate worflow
 * Pull Request Link: [pull request #97](https://github.com/rmwood367/cs386-Group10-Project/pull/97)
 * Implemented By: Brian Dorame
 * Approved By: Ryan Wood
-* Print Screen:
+* Print Screen:![image](https://github.com/user-attachments/assets/fe81f6e7-bd2e-4eec-a9f1-212fa839752b)
+
 <br>
 
 * Requirement:
