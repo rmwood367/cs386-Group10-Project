@@ -40,11 +40,11 @@ follow adequate worflow
 -->
 ### Requirements:
 
-* Requirement:
-* Issue Link:
-* Pull Request Link:
-* Implemented By:
-* Approved By:
+* Requirement: As a user I want to have my profile updated with my custimizition and saved on my account.
+* Issue Link: #99 [issue #99](https://github.com/rmwood367/cs386-Group10-Project/issues/99)
+* Pull Request Link: [pull request #97](https://github.com/rmwood367/cs386-Group10-Project/pull/97)
+* Implemented By: Brian Dorame
+* Approved By: Ryan Wood
 * Print Screen:
 <br>
 
