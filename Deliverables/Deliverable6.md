@@ -56,12 +56,14 @@ follow adequate worflow
 * Approved By: Ashley Sombrero  
 * Print Screen: ![image](https://github.com/user-attachments/assets/768e57c9-89c2-4854-8be6-77c3fa9c08f7)
 
-* Requirement:
-* Issue Link:
-* Pull Request Link:
-* Implemented By:
+<br>
+* Requirement:  Display details of a selected movie where users can view the title, movie description/plot, directors, genre, release date, runtime, ratings, and access reviews so they can determine whether the film matches their interests.
+
+* Issue Link: [https://github.com/rmwood367/cs386-Group10-Project/issues/105](https://github.com/rmwood367/cs386-Group10-Project/issues/105)
+* Pull Request Link: [https://github.com/rmwood367/cs386-Group10-Project/pull/107]
+* Implemented By: Latisha Talayumptewa
 * Approved By:
-* Print Screen:
+* Print Screen: ![image](https://github.com/user-attachments/assets/0d48231b-9003-484d-87d2-7e6d4732059b)
 <br>
 
 * Requirement:
