@@ -42,13 +42,19 @@ follow adequate worflow
 -->
 ### Requirements:
 
+* Requirement: As a user I want to have my profile updated with my custimizition and saved on my account.
+* Issue Link: #99 [issue #99](https://github.com/rmwood367/cs386-Group10-Project/issues/99)
+* Pull Request Link: [pull request #97](https://github.com/rmwood367/cs386-Group10-Project/pull/97)
+* Implemented By: Brian Dorame
+* Approved By: Ryan Wood
+* Print Screen:![image](https://github.com/user-attachments/assets/fe81f6e7-bd2e-4eec-a9f1-212fa839752b)
+
 * Requirement:  As a film enthusiast, I want to apply filters to my search results so I can find specific films that I like very quickly.
 * Issue Link: [https://github.com/rmwood367/cs386-Group10-Project/issues/13](https://github.com/rmwood367/cs386-Group10-Project/issues/13)
 * Pull Request Link: [https://github.com/rmwood367/cs386-Group10-Project/pull/100]
 * Implemented By: Jeremiah Lopez
 * Approved By: Ashley Sombrero  
 * Print Screen: ![image](https://github.com/user-attachments/assets/768e57c9-89c2-4854-8be6-77c3fa9c08f7)
-<br>
 
 * Requirement:
 * Issue Link:
@@ -103,10 +109,12 @@ Criteria
 -->
 ### Test:
 
-#### Test Framework: 
+#### Test Framework: jest for JavaScript testing
 #### Link to automated unit tests: 
 #### Link to class bieng tested & test itself:
 #### Screenshot of Automated Tests Execution:
+![image](https://github.com/user-attachments/assets/2232bf5d-6943-4db8-aa48-0b36eedc0c08)
+
 
 <!-- 
 Include link to video showing system working 

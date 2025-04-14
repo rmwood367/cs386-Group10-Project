@@ -26,7 +26,11 @@
     - GitHub Summary: 3 Commits / 3 Pull Requests
 
 * Brian Dorame
-    - GitHub Summary:
+- implmented saving user data
+- implmented displaying user data on profile page
+- implmented user custimiztion
+- worked on test for deliverable 6
+    - GitHub Summary: 3 commits, 2 pull requests
 
 * Alyssa Sombrero
     - GitHub Summary:
@@ -54,7 +58,8 @@
     - Style up sections previously worked on
 
 * Brian Dorame
-    -
+    - work on gettin other feature work such as user search
+    - adding more tables to data base for user data such as reviews 
 
 * Alyssa Sombrero
     -
