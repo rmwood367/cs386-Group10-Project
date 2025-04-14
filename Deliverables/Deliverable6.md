@@ -104,7 +104,7 @@ Criteria
 ### Test:
 
 #### Test Framework: jest for JavaScript testing
-#### Link to automated unit tests: 
+#### Link to automated unit tests:  [__tests__](https://github.com/rmwood367/cs386-Group10-Project/tree/dev6_test/project/__tests__)
 #### Link to class bieng tested & test itself:
 #### Screenshot of Automated Tests Execution:
 ![image](https://github.com/user-attachments/assets/2232bf5d-6943-4db8-aa48-0b36eedc0c08)
