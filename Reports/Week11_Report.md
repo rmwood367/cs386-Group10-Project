@@ -10,7 +10,8 @@
 ## Activity Summary:
 * Ryan Wood
     - Made Report 11
-    - Continued Work on Report Page
+    - Continued Work on Review Page
+    - Review page requirement on deliverable
     - GitHub Summary:
 
 * Latisha Talyumptewa
@@ -38,15 +39,18 @@
     - GitHub Summary:
 
 ## Retrospective
-1. Appreciation:
-2. Successes:
-3. Failures: 
-4. Barriers:
-5. What we should try next time:
+1. Appreciation: Blase went through all code files to make sure they followed all project guidelines
+2. Successes: The website has far more functionallity and is looking more cohesive as development continues
+3. Failures: Missing member at the meeting and started the work to close to the due date
+4. Barriers: Didn't decide on an in-person or an online meeting til the last minute so communication was slightly off
+5. What we should try next time: regroup for an in-person meeting to ensure communication is on point for the next deliverable
 
 ## Next Steps:
 * Ryan Wood:
-    -
+    - Continue improving UI elements 
+    - Work on the review page more
+    - Help plan next meeting
+    - Start on deliverable and report sooner
 
 * Latisha Talayumptewa
     - Work on futher features of webpage
