@@ -128,6 +128,7 @@ Criteria:
 - clear description with adequate use of language
 -->
 ### Code Quality:
+Our standards for code quality all came from the google style guidelines at https://google.github.io/styleguide/. These guidelines are widely used, and the level of detail in the guide was excellent. The most important standards were the ones regarding readability, like indents and braces surrounding conditionals.
 
 <!-- 
 Describe what your team learned during this second release and what would you change if you would 
