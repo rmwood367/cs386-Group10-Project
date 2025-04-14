@@ -10,7 +10,7 @@ consistent with current state of project.
 ### Introduction: 
 Film Haven is a streaming entertainment website that allows indie film enthusiasts to easily watch the most recent and popular indie films created by independent creators, prioritizing the customer needs by curating the website to their interests and encouraging community engagement.  By visiting Film Haven, users can experience innovative films and support small movie businesses and independent creators. Film Haven is a indie movie review website that allows film enthusiasts and aspiring indie filmmakers to discover, showcase, and review unique and compelling indie films. 
 
-The system must support user account creation and management, allowing users to securely register, login, and update their bio and favorite genres. Publishers update their profile to include the bio, genre specialization and website link and need a simple process to submit their movie for assessment by admins, ensuring it is following platform guidelines. The system must also provide personalized recommendation generated from the user's favorite genres to help the user discover new indie films based on their viewing history and preferences. Additonallly, users should be able to create and manage Watchlists and mark films as Favorites for easy access. The platform must include a review system, allowing users to add ratings and comments to movies, creating community engagement through comments and interactions. Admins must have the tools to review and approve film submissions and ban users to regulate platform rules. Finally, movies should be easily searched for by the user, using various criteria such as genre, year, rating, and title, allowing for a seamless and engaging experience for all stakeholders.
+The system must support user account creation and management, allowing users to securely register, login, and update their bio and favorite genres. Publishers update their profile to include the bio, genre specialization and website link and need a simple process to submit their movie for assessment by admins, ensuring it is following platform guidelines. The system must also provide personalized recommendations generated from the user's favorite genres to help the user discover new indie films based on their viewing history and preferences. Additionally, users should be able to create and manage Watchlists and mark films as Favorites for easy access. The platform must include a review system, allowing users to add ratings and comments to movies, creating community engagement through comments and interactions. Admins must have the tools to review and approve film submissions and ban users to regulate platform rules. Finally, movies should be easily searched for by the user, using various criteria such as genre, year, rating, and title, allowing for a seamless and engaging experience for all stakeholders.
 
 #### GitHub Project Link: https://github.com/rmwood367/cs386-Group10-Project/tree/main
 
@@ -53,7 +53,7 @@ follow adequate worflow
 * Issue Link: [https://github.com/rmwood367/cs386-Group10-Project/issues/13](https://github.com/rmwood367/cs386-Group10-Project/issues/13)
 * Pull Request Link: [https://github.com/rmwood367/cs386-Group10-Project/pull/100]
 * Implemented By: Jeremiah Lopez
-* Approved By: Ashley Sombrero  
+* Approved By: Alyssa Sombrero  
 * Print Screen: ![image](https://github.com/user-attachments/assets/768e57c9-89c2-4854-8be6-77c3fa9c08f7)
 
 * Requirement: as a user I want to be able to review the movies I watch and engage with other reviews
@@ -67,12 +67,13 @@ follow adequate worflow
 <br><img width="739" alt="Screenshot 2025-04-13 at 7 30 58 PM" src="https://github.com/user-attachments/assets/bb11c974-eebe-4a49-a8d9-75f5b4f164b0" />
 
 
-* Requirement:
-* Issue Link:
-* Pull Request Link:
-* Implemented By:
-* Approved By:
+* Requirement:  As a movie enthusiast, I want to see available genres so I can focus on the ones I enjoy.
+* Issue Link: https://github.com/rmwood367/cs386-Group10-Project/issues/110
+* Pull Request Link: https://github.com/rmwood367/cs386-Group10-Project/pull/108
+* Implemented By: Alyssa Sombrero
+* Approved By: Ryan Wood
 * Print Screen:
+  <img width="737" alt="TestDiscoverWebPage" src="https://github.com/CocoCat0/hello-world/blob/main/Screenshot%202025-04-13%20201253.png" />
 <br>
 
 * Requirement:
@@ -150,3 +151,4 @@ Adequate reflection about problems & solutions
 - clear description with adequate use of language.
 -->
 ### Lessons Learned:
+As a team, we learned how to improve our efficiency while working on the second release of our website. We found it more manageable to create a document outlining the tasks and their implementation, allowing each of us to sign up for tasks individually. This approach gave us the opportunity to focus on tasks that suited our strengths. If we were to continue the project, we would prioritize better time management. This would involve allocating specific hours to work on deliverables and scheduling breaks, avoiding last-minute efforts that could compromise the quality of our product and teamwork.
