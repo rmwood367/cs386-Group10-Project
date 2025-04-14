@@ -102,10 +102,12 @@ Criteria
 -->
 ### Test:
 
-#### Test Framework: 
+#### Test Framework: jest for JavaScript testing
 #### Link to automated unit tests: 
 #### Link to class bieng tested & test itself:
 #### Screenshot of Automated Tests Execution:
+![image](https://github.com/user-attachments/assets/2232bf5d-6943-4db8-aa48-0b36eedc0c08)
+
 
 <!-- 
 Include link to video showing system working 
