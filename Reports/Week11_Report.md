@@ -62,8 +62,8 @@
     - Work on next report
 
 * Blase Gornick
-    -Continue to style code
-    -Assist other members with work
+    - Continue to style code
+    - Assist other members with work
 
 * Jeremiah Lopez
     - Further work on search bar features
