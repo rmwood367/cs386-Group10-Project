@@ -137,10 +137,93 @@ body {
   
 /* Display Page Styles */
 
+.search-container {
+  position: relative;
+  color: black;
+  height: 50px;
+  width: 200px;
+  padding: 15px;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+  background: #cb510f;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #222;
+  outline: none;
+  border: none;
+  border-radius: 8px; 
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+.input-group i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  color: #222;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.input-group .fa-xmark {
+  font-size: 18px;
+  display: none;
+}
+
+.checklist-section{
+  margin-top: 10px;
+  width: auto; 
+  display: flex;
+  background: #cb510f;
+  border-radius: 20px;
+  color: #222;
+  padding: 10px; 
+  color: #000; 
+  padding: 5px; /* Reduced padding for a smaller size */
+}
+.checklist-section label{
+  color: #222;
+}
+
+#checklist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+  gap: 10px; 
+}
+
+#checklist li {
+  padding: 2px;
+  display: flex; 
+  align-items: center; 
+  white-space: nowrap; 
+}
+
+#checklist li:last-child {
+  border-bottom: none;
+}
+
+#checklist input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+
 .nav-links a {
   color: #cb510f;
   text-decoration: none;
 }
+
+
 /* Caroussel styling */
 .carouselcontainer {
   padding: 2rem;
