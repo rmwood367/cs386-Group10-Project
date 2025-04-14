@@ -43,6 +43,26 @@ Film Haven will have
 - Frontend with HTML, CSS, and JavaScript
 - Database storage for movie data, user accounts, reviews, and watchlists
 
+
+
+##Automated Unit Tests
+
+To run the automated unit tests for this project:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
+
+Install dependencies: Use npm to install the required dependencies:
+npm install
+
+Run the tests: Run the test suite using Jest:
+npx jest
+
+
+
+
 ## Contributing
 We welcome contributions from developers, designers, film enthusiasts, and filmmakers. See CONTRIBUTING.md for details on how to get involved.
 
