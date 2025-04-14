@@ -1,6 +1,8 @@
 <html lang="en">
     <body>
     <link rel="stylesheet" href="style.css">
+    <!-- For icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <script src="script.js"></script>
 
     <!-- nav bar hader-->
@@ -14,9 +16,34 @@
         <li><a href="#">Film of the Week</li></a>
         <li><a href="profile.html">Profile</a></li>
         <li><a href ="./index.html">Sign Out</a></li>
-        <li><input type="search" id="search" name="search" placeholder="search" required></li>
       </ul>
     </nav>
+      <div class="checklist-section">
+        <ul id="checklist">
+          <li>
+            <input type="checkbox" id="item1">
+            <label for="item1">Action</label>
+          </li>
+          <li>
+            <input type="checkbox" id="item2">
+            <label for="item2">Horror</label>
+          </li>
+          <li>
+            <input type="checkbox" id="item3">
+            <label for="item3">Comedy</label>
+          </li>
+          <li>
+            <input type="checkbox" id="item4">
+            <label for="item3">Fantasy</label>
+          </li>
+        </ul>
+      </div>
+    <div class="search-container">
+      <div class="input-group">
+          <input type="text" id="searchInput" placeholder="Search...">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-xmark"></i>
+      </div>
   </header>
 
   <section class="news"> 
