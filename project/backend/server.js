@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 // Use mysql2 for database operations
 const mysql = require('mysql2'); 
-// use environment variables for security
+// use environment variables for securit y
 require('dotenv').config(); 
 
 // inizlit app creating instnce of express
