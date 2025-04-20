@@ -15,7 +15,9 @@
     - GitHub Summary:
 
 * Blase Gornick
-    - GitHub Summary:
+    -Reviewed project and performed testing
+    -Began preparations for validation
+    - GitHub Summary: 1 pull request 1 commit
 
 * Jermiah Lopez
     - GitHub Summary:
@@ -41,7 +43,7 @@
     -
 
 * Blase Gornick
-    -
+    - Continue to work on validation and verification.
 
 * Jermiah Lopez
     -
