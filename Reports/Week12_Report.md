@@ -17,8 +17,10 @@
 * Blase Gornick
     - GitHub Summary:
 
-* Jermiah Lopez
-    - GitHub Summary:
+* Jeremiah Lopez
+    - Schedule Library Meeting
+    - Work on Report
+    - GitHub Summary: 1 Pull Request / 1 Commit
 
 * Brian Dorame
     - GitHub Summary:
@@ -43,8 +45,9 @@
 * Blase Gornick
     -
 
-* Jermiah Lopez
-    -
+* Jeremiah Lopez
+    - Work on final deliverable
+    - Work on final presentation
 
 * Brian Dorame
     -
