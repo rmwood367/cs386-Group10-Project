@@ -4,11 +4,14 @@
 #### Group: Ryan Wood, Latisha Talayumptewa, Blase Gornick, Jeremiah Lopez, Brian Dorame, Alyssa Sombrero
 #### Date: 4/20/25
 #### Present Participants: Blase, Jeremiah, Brian, Alyssa
-#### Missing Participants: 
+#### Missing Participants: Ryan, 
 #### Project Repo: https://github.com/rmwood367/cs386-Group10-Project.git
 
 ## Activity Summary:
 * Ryan Wood
+   - Review Project and testing
+   - Work on report
+   - Prepared for Deliverable
     - GitHub Summary:
 
 * Latisha Talyumptewa
@@ -47,7 +50,10 @@
 
 ## Next Steps:
 * Ryan Wood:
-    -
+    - continue working on code to make it as presentable as possible
+    - start slides for final presentation
+    - make the meeting this week 
+    - get deliverbale 7 turned in early for TA review
 
 * Latisha Talayumptewa
     -
