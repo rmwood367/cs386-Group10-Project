@@ -15,6 +15,8 @@
     - GitHub Summary:
 
 * Latisha Talyumptewa
+    - Work on report
+    - Start to work on validation portion
     - GitHub Summary:
 
 * Blase Gornick
@@ -56,7 +58,9 @@
     - get deliverbale 7 turned in early for TA review
 
 * Latisha Talayumptewa
-    -
+    - Work on validation portion for deliverable 7
+    - Finish up on last code
+    - Prepare for final presentation
 
 * Blase Gornick
     - Continue to work on validation and verification.
