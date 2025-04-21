@@ -3,7 +3,7 @@
 #### Indie Movie Website
 #### Group: Ryan Wood, Latisha Talayumptewa, Blase Gornick, Jeremiah Lopez, Brian Dorame, Alyssa Sombrero
 #### Date: 4/20/25
-#### Present Participants: 
+#### Present Participants: Blase, Jeremiah, Brian, Alyssa
 #### Missing Participants: 
 #### Project Repo: https://github.com/rmwood367/cs386-Group10-Project.git
 
@@ -31,13 +31,18 @@
     - GitHub Summary: 3 commits / 1 pull request
 
 * Alyssa Sombrero
-    - GitHub Summary
+  - Worked on Report 12
+  - Signed up for a task for Deliverable 7 and preparing for it
+  - Reviewed the graded Delilverables for comments in preparation for the upcoming deliverable
+  - Sketched example movie icons for display on discover webpage
+  - Filld out parts of Report 7 
+    - GitHub Summary: 2 commits / 1 pull request
 
 ## Retrospective
-1. Appreciation:
-2. Successes:
-3. Failures:
-4. Barriers:
+1. Appreciation: Brian creating a Deliverable 7 sign-up document to clearly understand the goal of each section in Deliverable 7 and what each person is expected to do.
+2. Successes: We were able to implement a way around having a in-person meeting by signing up in Brian's document and working on our own section on Report 12.
+3. Failures: Unfortunately, we didn't hold a team meeting due to other team projects for other classes.
+4. Barriers: We are in the final stretch of the semester, where everyone is busy with other classes, as well as studying for finals.
 5. What we should try next time:
 
 ## Next Steps:
@@ -60,4 +65,7 @@
     - get ready for final presentation
 
 * Alyssa Sombrero
-    -
+    - Finish the Discover Page
+    - Finish my section of Deliverable 7
+    - Look over Deliverable 7 before being submitted
+    - Prepare for the final presentation and how to tackle it
