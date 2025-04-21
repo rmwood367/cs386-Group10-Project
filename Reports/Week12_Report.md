@@ -19,8 +19,10 @@
     -Began preparations for validation
     - GitHub Summary: 1 pull request 1 commit
 
-* Jermiah Lopez
-    - GitHub Summary:
+* Jeremiah Lopez
+    - Schedule Library Meeting
+    - Work on Report
+    - GitHub Summary: 1 Pull Request / 1 Commit
 
 * Brian Dorame
   - Createded deliverable 7
@@ -48,8 +50,9 @@
 * Blase Gornick
     - Continue to work on validation and verification.
 
-* Jermiah Lopez
-    -
+* Jeremiah Lopez
+    - Work on final deliverable
+    - Work on final presentation
 
 * Brian Dorame
     - work on deliverable 7
