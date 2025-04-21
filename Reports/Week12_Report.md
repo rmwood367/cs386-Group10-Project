@@ -2,7 +2,7 @@
 
 #### Indie Movie Website
 #### Group: Ryan Wood, Latisha Talayumptewa, Blase Gornick, Jeremiah Lopez, Brian Dorame, Alyssa Sombrero
-#### Date:
+#### Date: 4/20/25
 #### Present Participants: 
 #### Missing Participants: 
 #### Project Repo: https://github.com/rmwood367/cs386-Group10-Project.git
@@ -21,7 +21,10 @@
     - GitHub Summary:
 
 * Brian Dorame
-    - GitHub Summary:
+  - Createded deliverable 7
+  - created report 12 template
+  - fixed profile loading
+    - GitHub Summary: 3 commits / 1 pull request
 
 * Alyssa Sombrero
     - GitHub Summary
@@ -47,7 +50,9 @@
     -
 
 * Brian Dorame
-    -
+    - work on deliverable 7
+    - work on finsihing up code
+    - get ready for final presentation
 
 * Alyssa Sombrero
     -
