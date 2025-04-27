@@ -278,6 +278,8 @@ document.addEventListener("DOMContentLoaded", () => {
       preferences.profilePictureURL = profilePictureURL; 
     });
   }
+  
+  
 });
  
 
