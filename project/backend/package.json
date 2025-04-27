@@ -18,10 +18,10 @@
   "devDependencies": {
     "jest": "^29.x" 
   },
+  
   "jest": {
-    "testMatch": [
-      "<rootDir>/frontend/__tests__/**/*.js?(x)"
-    ]
-  }
+  "testEnvironment": "jsdom",
+  "testMatch": ["<rootDir>/__tests__/**/*.js?(x)"]
+}
 
 }
