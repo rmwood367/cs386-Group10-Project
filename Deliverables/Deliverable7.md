@@ -21,6 +21,39 @@ A print screen showing the result of the unit tests execution.
 Grading criteria (5 points): adequate choice of a test framework, coverage of the tests, quality of the tests, adequate use of Mock objects, and a print screen showing successful test execution. -->
 ### Verification
 
+### Test Framework Used ###
+
+- For the automated unit tests, we used Jest, a popular JavaScript testing framework known for its speed, reliability, and built-in mocking capabilities. Jest is widely used for testing frontend and backend JavaScript applications, making it an ideal choice for our project.
+
+#### Link to automated unit tests: [__tests__](https://github.com/rmwood367/cs386-Group10-Project/tree/dev6_test/project/__tests__)
+
+### Example Test Case Using Mock Objects ###
+
+Below is an example of a test case using mock objects, specifically for mocking `localStorage` and `fetch` calls in Jest.
+Link [here](https://github.com/rmwood367/cs386-Group10-Project/blob/main/project/__tests__/script.test.js).
+```
+PS C:\Users\bdora\Documents\cs389project\cs386-Group10-Project\project> npx jest __tests__/script.test.js
+  console.log
+    BioForm submit event triggered!
+
+      at HTMLFormElement.log (__tests__/script.test.js:18:15)
+
+ PASS  __tests__/script.test.js
+  BioForm Submission
+    √ should correctly call `localStorage.getItem('userId')` on form submission (72 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.736 s
+Ran all test suites matching /__tests__\\script.test.js/i.
+```
+
+
+
+
+
+
 
 
 <!-- An acceptance test is a test that verifies the correct implementation of a feature from the user interface perspective. An acceptance test is a black box test (the system is tested without knowledge about its internal implementation). Provide the following information:
