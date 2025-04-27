@@ -20,7 +20,8 @@
   },
   
   "jest": {
-  "testEnvironment": "jsdom",
+  "testEnvironment":  "jest-environment-jsdom"
+  ,
   "testMatch": ["<rootDir>/__tests__/**/*.js?(x)"]
 }
 
