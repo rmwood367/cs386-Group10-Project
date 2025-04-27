@@ -20,7 +20,9 @@
     - GitHub Summary: 2 commits/ 2 pull requests
 
 * Blase Gornick
-    - GitHub Summary:
+    - Code Review
+    - Demo
+    - GitHub Summary: 1 commit 1 pull
 
 * Jeremiah Lopez
     - Added a smaller filter bar
@@ -60,7 +62,8 @@
     - Work on next report
 
 * Blase Gornick
-    -
+    - Continue to style code
+    - Assist other members with work
 
 * Jeremiah Lopez
     - Further work on search bar features

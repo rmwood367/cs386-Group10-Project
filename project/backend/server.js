@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 // Use mysql2 for database operations
 const mysql = require('mysql2'); 
-// use environment variables for security
+// use environment variables for securit y
 require('dotenv').config(); 
 
 // inizlit app creating instnce of express
@@ -25,27 +25,25 @@ app.use(express.json());
 
 
 // seeting up the sql database
-const db = mysql.createConnection({
-  // database connction details
-  host: 'metro.proxy.rlwy.net',        
-  user: 'root',                         
-  password: 'oeGyJZlNdCNPeyOjQPNKKASiBbWQqZOL', 
-  database: 'railway',                  
-  port: 43745                           
+const db = mysql.createPool({
+  // database connection details
+  host: 'metro.proxy.rlwy.net',
+  user: 'root',
+  password: 'oeGyJZlNdCNPeyOjQPNKKASiBbWQqZOL',
+  database: 'railway',
+  port: 43745
 });
 
-// testing the connection;
-db.connect((err) => {
-  // error ocurs
+// Testing the connection
+db.getConnection((err, connection) => {
   if (err) {
-    // eror message in console
     console.error('Database connection failed:', err);
-    //exit procces
-    process.exit(1); 
+    process.exit(1);
   }
-  //otherwise succes in console.
-  console.log('Connected to the Railway database!');
+  console.log('Connected to the Railway database via connection pool!');
+  connection.release(); // Release the connection back to the pool
 });
+
 
 
 
@@ -214,22 +212,48 @@ app.post('/update-genres', async (req, res) => {
 });
 
 //userPorfile endpoint
+// userProfile endpoint
 app.post('/update-profile', async (req, res) => {
-  //get userid,bio and pic url from req
+  // Get userId, bio, and profilePictureURL from the request
   const { userId, bio, profilePictureURL } = req.body;
 
   try {
-    // SQL commnd to update the users prefrnes in profile
-    const updateProfileSql = 'UPDATE UserProfiles SET bio = ?, profile_picture_url = ? WHERE user_id = ?';
-    await db.promise().query(updateProfileSql, [bio, profilePictureURL, userId]);
-    //send succesfule response to client
-    res.send({ message: 'Profile updated successfully!' });
+    // SQL commands to delete old data and insert new data
+    const deleteOldProfileSql = 'DELETE FROM UserProfiles WHERE user_id = ?';
+    const insertNewProfileSql = 'INSERT INTO UserProfiles (user_id, bio, profile_picture_url) VALUES (?, ?, ?)';
+    
+    // Start a transaction
+    const connection = await db.promise().getConnection();
+    await connection.beginTransaction();
+
+    try {
+      // Clear old data
+      await connection.query(deleteOldProfileSql, [userId]);
+
+      // Insert new data
+      await connection.query(insertNewProfileSql, [userId, bio, profilePictureURL]);
+
+      // Commit the transaction
+      await connection.commit();
+
+      // Send successful response to the client
+      res.send({ message: 'Profile updated successfully!' });
+    } catch (err) {
+      // Roll back the transaction if an error occurs
+      await connection.rollback();
+      throw err;
+    } finally {
+      // Release the connection
+      connection.release();
+    }
   } catch (err) {
-    // log any errors that occur during execution (debug)
+    // Log any errors that occur during execution (debugging)
     console.error('Error updating profile:', err);
     res.status(500).send({ message: 'Failed to update profile.' });
   }
 });
+
+
 
 
 // Display userProfile endpoint
