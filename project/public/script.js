@@ -248,8 +248,10 @@ document.addEventListener("DOMContentLoaded", () => {
       // Prevent the form from refreshing the page
       event.preventDefault();
       // Get the entered bio
-      const bio = document.getElementById("bio").value;
-      const profilePictureURL = document.getElementById("profilePictureURL").value;
+      preferences.userId = localStorage.getItem("userId"); // Ensure localStorage retrieval happens
+      const bio = document.getElementById("bio")?.value || "";
+      const profilePictureURL = document.getElementById("profilePictureURL")?.value || "";
+  
       // Make a fetch request to the backend to update the user's profile
       fetch("http://localhost:3000/update-profile", {
         method: "POST",
@@ -276,15 +278,23 @@ document.addEventListener("DOMContentLoaded", () => {
       preferences.profilePictureURL = profilePictureURL; 
     });
   }
+  
+  
 });
  
 
 
 // Profile editing section button
 
-document.getElementById("editProfileButton").addEventListener("click", function() {
-  window.location.href = "userPrefrence.html";
+document.addEventListener("DOMContentLoaded", function () {
+  const editProfileButton = document.getElementById("editProfileButton");
+  if (editProfileButton) {
+    editProfileButton.addEventListener("click", function () {
+      window.location.href = "userPrefrence.html";
+    });
+  }
 });
+
 
 
 
