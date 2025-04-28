@@ -1,57 +1,33 @@
-    <!-- Existing middle section and features... -->
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Film Haven</title>
-      <!--inlcude external files-->
-      <link rel="stylesheet" href="style.css">
-      <script src="script.js"></script>
-    </head>
-    <body>
-      <!-- nav bar hader-->
-      <header class="main-header">
-        <div class="logo">Film Haven</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Film Haven</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
 
-        <!--navigation links-->
-        <nav>
-          <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="discover.html">Discover</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><input type="search" id="search" name="search" placeholder="search" required></li>
-          </ul>
-        </nav>
-      </header>
+<header class="main-header">
+  <div class="logo">Film Haven</div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="discover.html">Discover</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><input type="search" id="search" name="search" placeholder="Search" required></li>
+    </ul>
+  </nav>
+</header>
 
+<main>
+  <h1>Discover More Movies</h1>
 
-    <!-- New movie sections -->
-    <p>Discover More Movies</p style="align:center">
-    <section class="movie-category">
-      <h2>Placeholder1</h2>
-      <div class="movie-row">
+  <!-- Movie sections generated dynamically here -->
+  <div id="movie-sections"></div>
 
-        <!-- Placeholder movie icons -->
-        <div class="movie-card">
-          <img src="images/everest.jpg" alt="placeholder">
-          <p>placeholder</p>
-        </div>
-        <div class="movie-card">
-          <img src="images/iceman.jpg" alt="placeholder">
-          <p>placeholder</p>
-        </div>
-        <!-- Possible of more movies added -->
-      </div>
-    </section>
-  
-    <section class="movie_category">
-      <h2>placeholder2</h2>
-      <div class="movie-row">
-        <div class="movie-card">
-          <img src="images/woods.jpg" alt="placeholder">
-          <p>placeholder</p>
-        </div>
-        <!-- More horror movie if possible-->
-      </div>
-    </section>  
+</main>
+
+</body>
+</html>
