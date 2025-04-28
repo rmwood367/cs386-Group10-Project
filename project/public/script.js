@@ -364,6 +364,61 @@ fetch(`http://localhost:3000/get-username?userId=${userId}`)
   });
 });
 
+// DISPLAY MOVIE WEBPAGE FUNCTIOSN
+// Example movie list
+const movies = [
+  { title: "Everest", genre: "Adventure", image: "images/everest.jpg" },
+  { title: "Iceman", genre: "Adventure", image: "images/iceman.jpg" },
+  { title: "Woods", genre: "Horror", image: "images/woods.jpg" },
+  { title: "The Ghost", genre: "Horror", image: " "},
+  { title: "How I met your Father", genre: "Comedy", image: ""},
+  { ttile: "Digital Part", genre: "Comedy", image: ""},
+  { title: "Rise of the Slugs", genre: "Fantasy", image: ""},
+  { title: "The Last Dragon", genre: "Fantasy", image: ""}
+];
+
+const sectionsContainer = document.getElementById('movie-sections');
+
+// Group movies by genre
+const genres = {};
+movies.forEach(movie => {
+  if (!genres[movie.genre]) {
+    genres[movie.genre] = [];
+  }
+  genres[movie.genre].push(movie);
+});
+
+// Create HTML for each genre
+for (const genre in genres) {
+  const section = document.createElement('section');
+  section.className = 'movie-category';
+
+  const header = document.createElement('h2');
+  header.textContent = genre;
+  section.appendChild(header);
+
+  const row = document.createElement('div');
+  row.className = 'movie-row';
+
+  genres[genre].forEach(movie => {
+    const card = document.createElement('div');
+    card.className = 'movie-card';
+
+    const img = document.createElement('img');
+    img.src = movie.image;
+    img.alt = movie.title;
+
+    const title = document.createElement('p');
+    title.textContent = movie.title;
+
+    card.appendChild(img);
+    card.appendChild(title);
+    row.appendChild(card);
+  });
+
+  section.appendChild(row);
+  sectionsContainer.appendChild(section);
+}
 
 
 
