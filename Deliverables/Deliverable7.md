@@ -119,13 +119,16 @@ For our user evaluation, we created a script to assess if FilmHaven is meeting o
 *Participants*
  1. Grace Benally 23 year old regular moviegoer that uses competitor apps
  2. Genn Young - A 37 year old who enjoys regular movie contents, whether its on mainstream or indie
- 3. participant 3 - description
+ 3. Sergio Uggiano - 21 year old student with that has seen very few indie movies but has interest in learning more about them and watching more. 
 
 *Task Completion Table*
-| Task | Completion Time | Difficulties Noted |
-| ---- | --------------- | ------------------ |
-|   (Genn)  Search for indie film in preferred genre  |       1 minute       |     None     |
-|   (Genn)  Explore the home page  |       2 minute     |  Confused why Get Started is the only Create Account   |
+| Task | Average Completion Time | Difficulties Noted |
+| ---- | ------------------------| ------------------ |
+| Search for indie film in preferred genre  |       1 minute       |     None     |
+| Explore the home page |       2 minute     |  Confused why Get Started is the only Create Account   |
+| Update Your Profile | 4 minutes | None |
+| Write a Review | 5 minutes | conusion on how to get to that page but easy to post |
+| Mark a Film as a Favorite | a couple seconds | None |
 
 
 <!-- Genn Young Questions 
@@ -138,25 +141,13 @@ For our user evaluation, we created a script to assess if FilmHaven is meeting o
 -->
 
 *Question Average*
-Navigation: /10 
-UI: /10
-Utility: /10
-Likelihood to use again: /10
-Systems: /10
+ - Navigation: 9/10 
+ - UI: 7/10
+ - Utility: 7/10
+ - Likelihood to use again: 7/10
+ - Systems: 8/10
 
 **Reflections:**
 
-Features that worked well 
-
-Areas for improvement
-
-Learning curve of the system 
-
-Was the system used as intended
-
-Did users actions produce the intended results
-
-What did the users like the most
-
-Is our Value Proposition accomplished
+We had many features that worked well including our login page that made it very easy to get new users set up in the application. Some areas of improvement can be found on our movie description page and review which are functional but not fully utilized. We are pleased to see that our learning curve is low and the ease of use of the application is high. Our users used the app as intended and had mostly as intended results but as we approach the next steps focus should shift to UI changes, more coheziveness between the many pages, and add more features in areas that seem a little basic.
 
