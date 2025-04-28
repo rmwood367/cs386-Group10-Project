@@ -77,6 +77,52 @@ Reflections: Reflect on what you observed. Some questions that you can explore: 
 
 Grading criteria (17 points): adequate script, adequate report of the results, adequate reflection, language. -->
 ### Validation
+Script:
+ (Interviewer: hand laptop over to interviewe and allow them to browser around the webpages for a minute. Mention the user will be anonymous.)
+ - Can you find the movie <insert a movie in the website?
+ - Would you find the website design please and how? If not, can you share some improvmenets we bould make.
+ - Would you upload your indie movie on this website and why?
+ - Do you recommend this website to your friends who want to pursue in Indie films? Why?
+ - On a scale of 1 to 10, how would you rate your overall experience using this website? Could you explain what factors influenced your rating?
+ (Interviewer gives appreciation to the interviewee and allow them to proceed)
+ (Overall interview should take around 3 - 7 minutes)
 
+Anonymous User 1:
+Question 1:
+
+Question 2:
+
+Question 3:
+
+Question 4:
+
+Question 5:
+
+
+Anonymous User 2:
+Question 1:
+
+Question 2:
+
+Question 3:
+
+Question 4:
+
+Question 5:
+
+
+Anonymous User 3:
+Question 1:
+
+Question 2:
+
+Question 3:
+
+Question 4:
+
+Question 5:
+
+
+Reflection:
 
 
