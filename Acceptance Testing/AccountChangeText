@@ -1,0 +1,64 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://127.0.0.1:5500/project/public/index.html')
+
+WebUI.click(findTestObject('Object Repository/Page_Film Haven/button_Get Started'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Sign Up/input_First Name_firstName'), 'test2')
+
+WebUI.click(findTestObject('Object Repository/Page_Sign Up/section_Create an Account                  _bec849'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Sign Up/input_First Name_firstName'), 'publisher')
+
+WebUI.setText(findTestObject('Object Repository/Page_Sign Up/input_Last Name_lastName'), 'test')
+
+WebUI.setText(findTestObject('Object Repository/Page_Sign Up/input_Email Address_emailSignup'), 'test2@test.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign Up/input_Password_passwordSignup'), 'tzH6RvlfSTg=')
+
+WebUI.click(findTestObject('Object Repository/Page_Sign Up/button_Login'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Login  Film Haven/input_Email Address_email'), 'test2@test.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login  Film Haven/input_Password_password'), 'tzH6RvlfSTg=')
+
+WebUI.click(findTestObject('Object Repository/Page_Login  Film Haven/button_Login'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Prefrences/select_-- Select Account Type --           _30da13'), 
+    'publisher', true)
+
+WebUI.click(findTestObject('Object Repository/Page_Prefrences/button_Next'))
+
+WebUI.click(findTestObject('Object Repository/Page_Prefrences/input_Action_favoriteGenres'))
+
+WebUI.click(findTestObject('Object Repository/Page_Prefrences/input_Animation_favoriteGenres'))
+
+WebUI.click(findTestObject('Object Repository/Page_Prefrences/label_Documentary'))
+
+WebUI.click(findTestObject('Object Repository/Page_Prefrences/button_Next_1'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Prefrences/textarea_Bio (Optional)_bio'), '                Hello! I test stuff')
+
+WebUI.click(findTestObject('Object Repository/Page_Prefrences/button_Submit Preferences'))
+
+WebUI.click(findTestObject('Object Repository/Page_/a_Sign Out'))
+
