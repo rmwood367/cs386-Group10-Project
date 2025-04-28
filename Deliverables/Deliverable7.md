@@ -118,13 +118,24 @@ For our user evaluation, we created a script to assess if FilmHaven is meeting o
 **Results**
 *Participants*
  1. Grace Benally 23 year old regular moviegoer that uses competitor apps
- 2. Participant 2 - description
+ 2. Genn Young - A 37 year old who enjoys regular movie contents, whether its on mainstream or indie
  3. participant 3 - description
 
 *Task Completion Table*
 | Task | Completion Time | Difficulties Noted |
 | ---- | --------------- | ------------------ |
-|      |                 |                    |
+|   (Genn)  Search for indie film in preferred genre  |       1 minute       |     None     |
+|   (Genn)  Explore the home page  |       2 minute     |  Confused why Get Started is the only Create Account   |
+
+
+<!-- Genn Young Questions 
+- yes I could in the discover page
+- The overall website design is pleasing, however on the home tab, it would be nice if the words were bolded in
+- It does fairly adequate, though the overall design could be more improved on, especially the ribbon of the home page
+- I would somewhat recommend this webpage with a person pursing in Indie movies. Though the website could have better navigation, interaction, and organization. 
+-About 7, mainly the the overall simplistic design and somewhat disorganized movies are the main factors.
+- Perhaps after some design improvments, I would use it again by 3/5. However as of now it would be 2/5
+-->
 
 *Question Average*
 Navigation: /10 
