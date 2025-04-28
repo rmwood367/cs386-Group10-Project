@@ -77,50 +77,43 @@ Reflections: Reflect on what you observed. Some questions that you can explore: 
 
 Grading criteria (17 points): adequate script, adequate report of the results, adequate reflection, language. -->
 ### Validation
-Script:
- (Interviewer: hand laptop over to interviewe and allow them to browser around the webpages for a minute. Mention the user will be anonymous.)
- - Can you find the movie <insert a movie in the website?
- - Would you find the website design please and how? If not, can you share some improvmenets we bould make.
- - Would you upload your indie movie on this website and why?
- - Do you recommend this website to your friends who want to pursue in Indie films? Why?
+**Script:**
+For our user evaluation, we created a script to assess if FilmHaven is meeting our inteded goals. Designing the script to assign tasks and questions based on our requirements to validate our progress. 
+
+**Tasks:**
+ 1. Create a new account on FilmHaven
+ 2. Update your profile
+ 3. Search for a indie film in your preferred genre
+ 4. Mark a film as a favorite
+ 5. Write a review and post it for a movie
+ 6. Explore the homepage
+ 7. Try to add a friend
+
+**Data Collection:**
+ - Observation notes during task completion
+ - Time taken to complete each task
+ - Number of errors or difficulties encountered
+ - User comments during the process
+
+ **Questions:**
+ - Can you find the movie "blank" in the website?
+ - Would you find the website design pleasing and how? If not, can you share some improvmenets we should make.
+ - How does FilmHaven compare to other movie review platforms you've used like Letterboxd or IMDb for example
+ - Would you upload your indie movie on this website and why? (if applicable)
+ - Would you recommend this website to your friends who want to pursue learning more about Indie films? Why?
  - On a scale of 1 to 10, how would you rate your overall experience using this website? Could you explain what factors influenced your rating?
- (Interviewer gives appreciation to the interviewee and allow them to proceed)
+ - How likely are you to use FilmHaven again
+
  (Overall interview should take around 3 - 7 minutes)
 
-Anonymous User 1:
-Question 1:
+Participants
+ 1. Grace Benally 23 year old regular moviegoer that uses competitor apps
+ 2. Participant 2 - description
+ 3. participant 3 - description
 
-Question 2:
-
-Question 3:
-
-Question 4:
-
-Question 5:
-
-
-Anonymous User 2:
-Question 1:
-
-Question 2:
-
-Question 3:
-
-Question 4:
-
-Question 5:
-
-
-Anonymous User 3:
-Question 1:
-
-Question 2:
-
-Question 3:
-
-Question 4:
-
-Question 5:
+| Task | Completion Time | Difficulties Noted |
+| ---- | --------------- | ------------------ |
+|      |                 |                    |
 
 
 Reflection:
