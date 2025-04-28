@@ -106,16 +106,37 @@ For our user evaluation, we created a script to assess if FilmHaven is meeting o
 
  (Overall interview should take around 3 - 7 minutes)
 
-Participants
+**Results**
+*Participants*
  1. Grace Benally 23 year old regular moviegoer that uses competitor apps
  2. Participant 2 - description
  3. participant 3 - description
 
+*Task Completion Table*
 | Task | Completion Time | Difficulties Noted |
 | ---- | --------------- | ------------------ |
 |      |                 |                    |
 
+*Question Average*
+Navigation: /10 
+UI: /10
+Utility: /10
+Likelihood to use again: /10
+Systems: /10
 
-Reflection:
+**Reflections:**
 
+Features that worked well 
+
+Areas for improvement
+
+Learning curve of the system 
+
+Was the system used as intended
+
+Did users actions produce the intended results
+
+What did the users like the most
+
+Is our Value Proposition accomplished
 
