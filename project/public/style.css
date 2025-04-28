@@ -633,5 +633,14 @@ button:hover {
   background-color: #ff0000; 
 }
 
+/* DISPLAY MOVIE SECTION*/
+#movie-sections {
+  display: flex;
+  flex-wrap: wrap; /* This makes it wrap nicely if too many movies */
+  gap: 1rem; /* Adds some space between movies */
+  justify-content: center; /* Center movies horizontally */
+  padding: 1rem;
+}
+
 
 
