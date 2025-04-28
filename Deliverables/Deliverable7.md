@@ -56,6 +56,7 @@ Ran all test suites matching /__tests__\\script.test.js/i.
 
 
 
+
 <!-- An acceptance test is a test that verifies the correct implementation of a feature from the user interface perspective. An acceptance test is a black box test (the system is tested without knowledge about its internal implementation). Provide the following information:
 
 Test framework you used to develop your tests (e.g., Selenium, Katalon Studio, Espresso2, Cucumber, etc.)
@@ -65,8 +66,16 @@ A print screen/video showing the acceptance test execution.
 Grading criteria (7 points): adequate choice of a test framework, coverage of the tests, quality of the tests, adequate example of an acceptance test, print screen/video showing successful tests execution. -->
 ### Acceptance Test
 
+We used Katalon Studio to perform Acceptance Testing.
+
+Our Folder:
+https://github.com/jbg264/cs386-Group10-Project/tree/ac918b07585013f3a9ee2ac99ee53b4c1bae94da/Acceptance%20Testing
 
 
+In this scerenshot, we are testing if an invalid login will fail. The test passes, meaning this system is working as intended. 
+
+https://github.com/jbg264/cs386-Group10-Project/blob/ac918b07585013f3a9ee2ac99ee53b4c1bae94da/Acceptance%20Testing/FailedLoginText
+![Screenshot 2025-04-27 210411](https://github.com/user-attachments/assets/1b2f500b-1746-4751-ac51-24bcf56618ce)
 <!-- At the beginning of the semester, you talked to the clients/potential users to understand their needs. Now it is time to check if you are on the right track by conducting some user evaluation on the actual system. Include in this deliverable the following information:
 
 Script: The script should have the tasks that you gave to the user, what data you collected, and the questions you asked. In particular, do not forget to add questions about the users’ general impressions. You can ask open questions (e.g., How would you describe the homepage of our app? How do you compare our system to the competitor X?) or closed questions (On a scale of 1 to 10, how would you rate the layout of our application? On the same scale, how likely would you use the system in its current state?). Take a look at the inception and requirements deliverables to help create the script. Design a script to check if you are achieving your initial goals and if the features are implemented in a satisfactory way. 
