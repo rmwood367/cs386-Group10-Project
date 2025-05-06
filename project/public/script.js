@@ -367,14 +367,14 @@ fetch(`http://localhost:3000/get-username?userId=${userId}`)
 // DISPLAY MOVIE WEBPAGE FUNCTIOSN
 // Example movie list
 const movies = [
-  { title: "Everest", genre: "Adventure", image: "images/everest.jpg" },
-  { title: "Iceman", genre: "Adventure", image: "images/iceman.jpg" },
-  { title: "Woods", genre: "Horror", image: "images/woods.jpg" },
-  { title: "The Ghost", genre: "Horror", image: " "},
-  { title: "How I met your Father", genre: "Comedy", image: ""},
-  { ttile: "Digital Part", genre: "Comedy", image: ""},
-  { title: "Rise of the Slugs", genre: "Fantasy", image: ""},
-  { title: "The Last Dragon", genre: "Fantasy", image: ""}
+  { title: "Everest", genre: "Adventure", image: "images/Everest.png" },
+  { title: "Iceman", genre: "Adventure", image: "images/Iceman.png" },
+  { title: "Woods", genre: "Horror", image: "images/Woods.png" },
+  { title: "The Ghost", genre: "Horror", image: "images/TheGhost.png"},
+  { title: "How I met your Father", genre: "Comedy", image: "images/HowMetFather.png"},
+  { title: "Digital Part", genre: "Comedy", image: "images/DigitalPart.png"},
+  { title: "Rise of the Slugs", genre: "Fantasy", image: "images/RiseOfSlugs.png"},
+  { title: "The Last Dragon", genre: "Fantasy", image: "images/LastDragon.png"}
 ];
 
 const sectionsContainer = document.getElementById('movie-sections');
@@ -419,9 +419,3 @@ for (const genre in genres) {
   section.appendChild(row);
   sectionsContainer.appendChild(section);
 }
-
-
-
-
-
-

@@ -642,5 +642,10 @@ button:hover {
   padding: 1rem;
 }
 
-
-
+#movie-sections img {
+  width: 150px; /* or any fixed size */
+  height: auto;
+  object-fit: cover; /* optional: to crop nicely if needed */
+  border-radius: 8px; /* optional: styling */
+  margin: 10px;
+}
