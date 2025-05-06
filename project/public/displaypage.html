@@ -1,68 +1,36 @@
 <html lang="en">
     <body>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="movieDisplay.css">
     <!-- For icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <script src="script.js"></script>
 
-    <!-- nav bar hader-->
-  <header class="main-header">
+   <!--navigation bar-->
+   <header class="main-header">
     <div class="logo">Film Haven</div>
-    <!--navigation links-->
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="discover.html">Discover</a></li>
-        <li><a href="#">Film of the Week</li></a>
-        <li><a href="profile.html">Profile</a></li>
-        <li><a href ="./index.html">Sign Out</a></li>
-      </ul>
-    </nav>
-      <div class="checklist-section">
-        <ul id="checklist">
-          <li>
-            <input type="checkbox" id="item1">
-            <label for="item1">Action</label>
-          </li>
-          <li>
-            <input type="checkbox" id="item2">
-            <label for="item2">Horror</label>
-          </li>
-          <li>
-            <input type="checkbox" id="item3">
-            <label for="item3">Comedy</label>
-          </li>
-          <li>
-            <input type="checkbox" id="item4">
-            <label for="item3">Fantasy</label>
-          </li>
+      <!--navigation links-->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><input type="search" id="search" name="search" placeholder="search" required></li>
         </ul>
-      </div>
-    <div class="search-container">
-      <div class="input-group">
-          <input type="text" id="searchInput" placeholder="Search...">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <i class="fa-solid fa-xmark"></i>
-      </div>
+      </nav>
   </header>
 
-  <section class="news"> 
-    <section class="carouselcontainer">
-        <div class="sliderwrapper">
-            <div class = "slider">
-                <img id="slide1" src="images/news.png" alt = "Recent Film News">
-                <img id="slide2" src="images/film_of_the_week.png" alt = "film of the week">
-                <img id="slide3" src="images/director_of_the_week.png" alt = "director of the week">
-            </div>
-            <div class="slidernav">
-                <a href ="#slide1"></a>
-                <a href ="#slide2"></a>
-                <a href ="#slide3"></a>
-            </div>    
-        </div>
+    <section class="recommendations">
+      <div class="recommendationtitle">
+        <h1> Recommended For You </h1>
+          <div id="movies-list"></div>
+      </div>
     </section>
-</section>  
 
+    <section class="trending">
+      <div class="trending-title">
+        <h1> Trending Now</h1>
+        <div id="trending-list"></div>
+      </div>
+    </section>
 
     <section  class="reviews">
         <div class="reviewstitle">
@@ -73,46 +41,69 @@
         </div>
     </section>
 
-    <section class="articles">
-        <div class="articlecontainer">
-            <a href = "#article"> <h1> Articles / spot for news / connect to social media </h1></a>
-        </div>
-    </section>
-
-    <section class="recommendations">
-        <div class="recommendationtitle">
-            <h1> Your Recommendations </h1>
-        </div>
-        <div class="recommendcontainer">
-          <div class="film">
-            <img src="images/film_background.PNG">
-            <div class ="film-content">
-              <h3> Film 1 </h3>
-              <p> Film Description </p>
-              <a href="" class ="btn"> View Here </a>
-            </div>
-          </div>
-          <div class="film">
-            <img src="images/film_background.PNG">
-            <div class ="film-content">
-              <h3> Film 2 </h3>
-              <p> Film Description </p>
-              <a href="" class ="btn"> View Here </a>
-            </div>
-          </div>
-          <div class="film">
-            <img src="images/film_background.PNG">
-            <div class ="film-content">
-              <h3> Film 3 </h3>
-              <p> Film Description </p>
-              <a href=""> View Here </a>
-            </div>
-          </div>
-        </div>
-    </section>
 
   <footer>
     <p>© 2025 Film Haven</p>
   </footer>
+  <script>
+      // movie list with data of an API
+       const trending = [
+      { id: "tt11362842", title: "When Time Got Louder", poster: "https://m.media-amazon.com/images/M/MV5BZWI0NDIzN2EtMzk2ZS00MGFmLTg3MTItMzYzMTYyNjI5YWQ4XkEyXkFqcGc@._V1_SX300.jpg"},
+      { id: "tt1800734", title: "Shiver", poster: "https://m.media-amazon.com/images/M/MV5BMTExODE5NTU0NjdeQTJeQWpwZ15BbWU3MDIxNzYyNTQ@._V1_SX300.jpg"},
+      { id: "tt11311974", title: "Moonlit Winter", poster: "https://m.media-amazon.com/images/M/MV5BMGU3NWE2YjYtZGFmNi00ZjAwLWJiYmUtZTIwMDc4MThiMDliXkEyXkFqcGc@._V1_SX300.jpg"},
+      { id: "tt3976044", title: "Rebirth", poster: "https://m.media-amazon.com/images/M/MV5BNzVkY2E5ZGYtMTA1Mi00MzZkLWIwN2MtNTIxMTA3ZjdmYzUxXkEyXkFqcGc@._V1_SX300.jpg"},
+      { id: "tt19846330", title: "La paradoja de Antares", poster: "https://m.media-amazon.com/images/M/MV5BNGM1NzA0ZDItMzUxZi00MTI5LWFiYjQtYzJhMTM1MTkxYWYwXkEyXkFqcGc@._V1_SX300.jpg"},
+      { id: "tt5079452", title: "Strangers at the Door",poster: "https://m.media-amazon.com/images/M/MV5BY2Y3YzQ0ZjQtZDBlYy00MDE2LWI3MjItNmVkODQ4NWI3NjYwXkEyXkFqcGc@._V1_SX300.jpg"}
+    ];
+
+      const movies = [
+      { id: "tt9691846", title: "Neon Tank", poster: "https://m.media-amazon.com/images/M/MV5BZWViNGZlNTEtZjFhYy00NjUxLWE0MTktNWEzOGU1ZTQ4N2M4XkEyXkFqcGc@._V1_SX300.jpg"},
+      { id: "tt18071878", title: "Stringless Puppets", poster: "https://m.media-amazon.com/images/M/MV5BYTgzZWNmYmMtZTBkMy00NjBjLWFlM2EtZDFjZjg0NTc0Y2RlXkEyXkFqcGc@._V1_SX300.jpg"},
+      { id: "tt27673910", title: "Jublowski", poster: "https://m.media-amazon.com/images/M/MV5BYzcyZGFiYmItN2MwYy00NjM5LWI4ZjgtNDNmNzljM2M1ZGUzXkEyXkFqcGc@._V1_SX300.jpg"},
+      { id: "tt11054928", title: "The Last Loner", poster: "https://m.media-amazon.com/images/M/MV5BZjI1MjYzZjUtOWMwYy00ZWNlLThjOTUtZjE3MTAzYTI0ZWE4XkEyXkFqcGc@._V1_SX300.jpg"},
+      { id: "tt9336426", title: "Tamil MI-7",poster:"https://m.media-amazon.com/images/M/MV5BZmRkMzdmNmEtMDRhMS00YTNjLTk0NGUtMDFjZThkZDdhNjkzXkEyXkFqcGc@._V1_SX300.jpg"},
+      { id: "tt0374900", title: "Napoleon Dynamite", poster: "https://m.media-amazon.com/images/M/MV5BNjYwNTA3MDIyMl5BMl5BanBnXkFtZTYwMjIxNjA3._V1_SX300.jpg"}
+    ];
+
+    const moviesListEl = document.getElementById('movies-list');
+    // create a list of movie links
+    movies.forEach(movie => {
+      const container = document.createElement('div');
+      container.className = 'movie-item';
+
+      const img = document.createElement('img');
+      img.src = movie.poster;
+      img.alt = movie.title + ' poster';
+      img.className = 'movie-poster';
+      container.appendChild(img);
+
+      const movieLink = document.createElement('a');
+      movieLink.href = `movieDescription.html?id=${movie.id}`;
+      movieLink.textContent = movie.title;
+      movieLink.className = 'movie-link';
+      container.appendChild(movieLink);
+      moviesListEl.appendChild(container);
+    });
+
+    const trendingListEl = document.getElementById('trending-list');
+    // create a list of movie links
+    trending.forEach(movie => {
+      const container = document.createElement('div');
+      container.className = 'movie-item';
+
+      const img = document.createElement('img');
+      img.src = movie.poster;
+      img.alt = movie.title + ' poster';
+      img.className = 'movie-poster';
+      container.appendChild(img);
+
+      const movieLink = document.createElement('a');
+      movieLink.href = `movieDescription.html?id=${movie.id}`;
+      movieLink.textContent = movie.title;
+      movieLink.className = 'movie-link';
+      container.appendChild(movieLink);
+      trendingListEl.appendChild(container);
+    });
+  </script>
 </body>
 </html>
