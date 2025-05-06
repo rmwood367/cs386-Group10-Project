@@ -1,0 +1,143 @@
+/* Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #1a1a1a;
+  color: #eee;
+}
+
+/*header section*/
+header {
+  background: #222;
+  color: #cb510f;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #cb510f;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #ff0000;
+  scale: 1.5;
+}
+
+/* Sections */
+.recommendations, .trending {
+  background: #cb510f;
+  padding: 2rem 1rem;
+}
+.recommendationtitle h1,
+.trending-title h1 {
+  margin: 0 auto 1rem;
+  text-align: center;
+  color: #222;
+  font-size: 2rem;
+}
+
+/* Movies */
+#movies-list,
+#trending-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+}
+
+/*  Movie Card  */
+.movie-item {
+  background: #2a2a2a;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.movie-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.7);
+}
+
+.movie-poster {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+.movie-link {
+  display: block;
+  padding: .75rem .5rem;
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(0,0,0,0.5);
+}
+.movie-link:hover {
+  color: #ffefc0;
+}
+  
+  /* Review styling */
+  .reviewstitle {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+  .reviewstitle h1 {
+    font-size: 30px;
+  }
+  .userreviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000000;
+    padding: 6rem; 
+  }
+  .userreviews a {
+    color: #cb510f;
+    text-decoration: none;
+  }
+  .userreviews a:hover {
+    transform: scale(1.25);
+    transition: transform 0.3s ease-in-out;
+  }
+  .reviews {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  /* Review styling */
+
+  
+  /* Footer */
+    /* Footer */
+    footer {
+      background: #222;
+      color: #cb510f;
+      text-align: center;
+      padding: 10px 20px;
+    }
+  
+  
