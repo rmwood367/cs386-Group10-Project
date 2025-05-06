@@ -13,10 +13,9 @@
       <!--navigation links-->
       <nav>
         <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Discover</a></li>
-          <li><a href="#">Film of the Week</li></a>
-          <li><a href="#">Profile</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="profile.html">Profile</a></li>
           <li><input type="search" id="search" name="search" placeholder="search" required></li>
         </ul>
       </nav>
@@ -39,10 +38,10 @@
           <li><strong>Release Date:</strong> <span id="release-date"></span></li>
           <li><strong>IMDB Rating:</strong> <span id="movie-rating"></span></li>
         </ul>
-        <a href="./movie-reviews-html.html" id='movie-review'>Leave A Review!</a>
+        <a href="./movieReview.html" id='movie-review'>Leave A Review!</a>
       </div>
     </section>
-    <a href="./movieDisplay.html" id='movie-homepage'>← Return to Homepage</a>
+    <a href="./displaypage.html" id='movie-homepage'>← Return to Homepage</a>
 
   </div>
   </main>
@@ -94,7 +93,7 @@
       const apiKey = '3b476825';
       const baseUrl = 'https://www.omdbapi.com/';
       const url = `${baseUrl}?apikey=${apiKey}&i=${movieId}&plot=full&r=json&type=movie`;
-      document.getElementById('movie-review').href = `movie-reviews-html.html?id=${movieId}`;
+      document.getElementById('movie-review').href = `movieReview.html?id=${movieId}`;
 
       try {
         const res = await fetch(url);
